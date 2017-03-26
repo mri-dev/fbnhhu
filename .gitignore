@@ -1,0 +1,7 @@
+sftp-config.json
+config.inc.php
+.ftpconfig
+.DS_Store
+.svn
+images/
+upload/
