@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteRule ^[0-9]+_([^\d\/]+)_([0-9]+)_.*_([0-9]+)_([0-9]+)_.*_[0-9]+_.*$ ?$1$4=$3&%{QUERY_STRING}[L]
+# fix for loop
+RewriteCond %{ENV:REDIRECT_STATUS} 200
+RewriteRule .* - [L]
+RewriteCond %{REQUEST_URI} ^/(cikkek|forum)/(\d+)_.*$
+RewriteRule (.*)/(\d+)_.*? /index.php?url=forum/$1/$2 [QSA]
+RewriteCond %{REQUEST_URI} ^/konferencia(_fbnh)?$
+RewriteRule konferencia(.*)? /index.php?url=index/signup$1 [QSA]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(admin/)?(.*)$ /$1index.php?url=$2 [QSA]
