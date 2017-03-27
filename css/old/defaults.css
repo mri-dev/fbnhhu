@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -moz-outline: 0;
+}
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+section {
+    display: block;
+}
+
+a img {
+    border: 0;
+}
+
+table {
+    width: 100%;
+}
+
+div.message {
+    clear: both;
+
+    margin: 10px 0 0;
+    padding: 5px 10px;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+    color: #50A546;
+}
+
+div.message.error {
+    color: #fff;
+}
+
+div.message.success {
+    background-color: #50A546;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+.clearer {
+    clear: both !important;
+}
+
+.pager {
+    width: 100%;
+    clear: both;
+}
+
+.pager tr td {
+    padding: 5px 0;
+}
+
+.pager tr td a {
+    background-color: #50A546;
+    border: 1px solid #efefef;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 11px;
+    line-height: 20px;
+    margin: 0 2px;
+    padding: 5px 8px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.pager tr td a:hover,
+.pager tr td a.current {
+    background-color: #efefef;
+    border: 1px solid #50A546;
+    text-decoration: none;
+    color: #4C4C4C;
+}
+
+.error {
+    background-color: red;
+}
+
+input.error {
+    background-color: #fff;
+    border: 1px solid red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.floatleft {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+#pmeter {
+    height: 27px;
+}
+
+#pmeter div {
+    margin: 0 4px 0 0;
+    width: 101px;
+    height: 27px;
+    float: left;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #777;
+}
+
+#pmeter .pmeter1 {
+    background: red;
+    text-align: center;
+    line-height: 27px;
+    font-weight: bold;
+    color: #fff;
+}

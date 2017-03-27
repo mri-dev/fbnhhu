@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Chaparral";
+  font-weight: normal;
+  font-style: normal;
+	src:
+      url("fonts/ChaparralPro-Regular.ttf") format("ttf"),
+      url("fonts/ChaparralPro-Regular.eot") format("eot"),
+	    url("fonts/ChaparralPro-Regular.woff2") format("woff2"),
+	    url("fonts/ChaparralPro-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Chaparral";
+  font-weight: bold;
+  font-style: normal;
+ 	src:
+      url("fonts/ChaparralPro-Bold.ttf") format("ttf"),
+      url("fonts/ChaparralPro-Bold.eot?") format("eot"),
+ 	    url("fonts/ChaparralPro-Bold.woff2") format("woff2"),
+ 	    url("fonts/ChaparralPro-Bold.woff") format("woff");
+}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin-ext');

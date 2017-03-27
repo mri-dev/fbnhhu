@@ -1,0 +1,34 @@
+dl dt {
+    clear: both;
+    float: left;
+    width: 220px;
+    padding: 8px 5px 8px 10px;
+}
+
+dl dt.radio {
+    text-align: right;
+    width: auto;
+    padding: 8px 10px;
+}
+
+dl dd {
+    float: left;
+    padding: 5px;
+}
+
+dl dd.radio {
+    height: 20px;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+dl dd.editor {
+    clear: both;
+    padding: 0 0 0 10px;
+    width: 935px;
+}
+
+.form_error {
+    color: #ff0000;
+    padding: 3px 0;
+}

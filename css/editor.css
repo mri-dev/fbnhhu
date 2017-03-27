@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font: normal 12px Verdana;
+    color: #4a4c4c;
+    background: #f1f1f1;
+
+    padding: 10px;
+}
+
+a {
+    color: #50a546;
+    text-decoration: none;
+}
+
+h2 {
+    font: italic normal 26px georgia;
+}
+
+h3 {
+    font: bold 26px georgia;
+}
+
+ul li,
+p {
+    padding: 0 0 5px 0;
+}
+
+ul {
+    margin: 10px 0 10px 20px;
+}
