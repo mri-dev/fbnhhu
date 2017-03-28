@@ -52,7 +52,7 @@ window._fbq.push([\'track\', \'PixelInitialized\', {}]);
 
     if ( $this->sm->is_logged() )
     {
-	echo '<div id="logged-name">Üdvözöllek <span class="bold">' . $this->sm->user->name . '</span>!<br /><a href="/admin/users/profil">Profil</a> &bull; <a href="/index/logout">Kilépés</a></div>';
+	echo '<div id="logged-name">Üdvözöllek <span class="bold">' . $this->sm->user->name . '</span>!<br /><a href="/admin/users/profil">Profil</a><a href="/index/logout">Kilépés</a></div>';
 
         if ( $this->MENU_ITEMS )
         {

@@ -12,8 +12,8 @@ dl dt.radio {
 }
 
 dl dd {
-    float: left;
     padding: 5px;
+    clear:both;
 }
 
 dl dd.radio {
@@ -24,8 +24,8 @@ dl dd.radio {
 
 dl dd.editor {
     clear: both;
-    padding: 0 0 0 10px;
-    width: 935px;
+    padding: 0;
+    width: 100%;
 }
 
 .form_error {

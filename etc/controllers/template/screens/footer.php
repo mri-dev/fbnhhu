@@ -1,8 +1,10 @@
 <?php
     echo '<div class="clearer"></div>',
 	 '</div>', # container
-	 '<footer id="footer">',
-	 '<div id="partners" class="page-width-holder">',
+	 '<footer id="footer">';
+
+   if(defined('ISHOME') && ISHOME === true):
+   echo '<div id="partners" class="page-width-holder">',
 	 '<h3>Partnereink</h3>';
 
     if ( $this->PARTNERS )
@@ -32,9 +34,10 @@
     }
 
     echo '<div class="clearer"></div>',
-	 '</div>',
+	 '</div>';
+ endif;
 
-	 '<div id="sitemap">',
+   echo '<div id="sitemap">',
    '<div class="page-width-holder">',
 
 	 '<section id="child1">',

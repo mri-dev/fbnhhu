@@ -1,9 +1,18 @@
 <?php
-  echo '<section id="nav-buttons"><div class="page-width-holder">';
-      echo '<div class="holder">',
-      '<h2 class="page_header">Az FBN-H-ról</h2>',
-      '</div>';
-  echo '</div></section>';
+  if ( $this->FBNHGROUP )
+  {
+    echo '<section id="nav-buttons"><div class="page-width-holder">';
+        echo '<div class="holder">',
+        '<h2 class="page_header">Az FBN-H-ról</h2>',
+        '<ul>';
+        foreach ( $this->FBNHGROUP as $item )
+      	{
+          echo '<li><a href="'.$item->get_url().'"><div>'.$item->name.'</div></a></li>';
+        }
+        echo '<div class="clearer"></div>';
+        echo'</ul></div>';
+    echo '</div></section>';
+  }
 
   echo '<section id="szalag"><div class="page-width-holder">';
       echo '<div class="holder">',
@@ -22,7 +31,7 @@
     	{
     	    if ( $item->id == 15 )
     	    {
-    		continue;
+    		        continue;
     	    }
 
     	    echo '<article class="forumbox' . ($i++ % 2 == 0 ? ' clearer' : '') . '">',

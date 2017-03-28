@@ -2,44 +2,45 @@
 
 class index_controller {
     private $scr;
-    
+
     public $news_action = null;
 
-    function __construct () 
+    function __construct ()
     {
 	$this->scr	= new screen(__FILE__);
 
 	$this->forumlist = new forumlist();
 	$this->articlelist = new articlelist();
+  $this->grouplist = new grouplist();
 
         $this->comment_types    = get_config('ARTICLES::COMMENT_TYPES');
         $this->visibility       = get_config('ARTICLES::VISIBILITY');
-                
+
         $this->scr->register_var('COMMENT_TYPES', $this->comment_types);
         $this->scr->register_Var('VISIBILITY', $this->visibility);
     }
-    
-    function display ($params = null) 
+
+    function display ($params = null)
     {
 	parse_str($params);
 
-	if ( !isset($action) ) 
+	if ( !isset($action) )
 	{
 	    $action = $_REQUEST['_ACTION'];
 	}
 
-	switch ( $action ) 
+	switch ( $action )
 	{
 	    case 'signup_fbnh' :
 		if ( !$this->scr->sm->is_logged() )
 		{
 		    display_controller('error', 'action=404&error=Az oldal megtekintéséhez bejelentkezés szükséges.');
-		
+
 		    break;
 		}
-	    
+
 		$_PROGRAMS = array(1 => 'Konferencia', 'Családi hétvége (Szombat)', 'Családi hétvége (Vasárnap)');
-	    
+
 		$this->scr->register_var('PROGRAMS', $_PROGRAMS);
 
 		if ( isset($_REQUEST['submit-button']) )
@@ -71,7 +72,7 @@ class index_controller {
 			if ( $query->insert_row() )
 			{
 			    $signup_id = $query->insert_id;
-			
+
 			    foreach ( $_POST['names'] as $id => $name )
 			    {
 				if ( empty($name) ) continue;
@@ -101,11 +102,11 @@ class index_controller {
 				    'name'	=> $name,
 				    'programs'	=> implode(',', $programs),
 				);
-				
+
 				$query = new query();
 				$query->insert('signup_members', $vals)->insert_row();
 			    }
-			    
+
 			    $body = '<h1 style="font: italic normal 20px/25px Georgia;">Kedves ' . $_POST['c_name'] . '!</h1>'
 
 				  . '<p>Sikeresen regisztráltál a Felelős Családi Vállalkozások IV. konferenciájára!</p>'
@@ -147,14 +148,14 @@ class index_controller {
 
 				  . '<p>Hamarosan találkozunk,<br />'
 				  . '<b>FBN-H</b></p>';
-			    
+
 			    htmlmail($_POST['c_email'], 'Jelentkezés a Felelős Családi Vállalkozások IV. konferenciájára', $body);
 			    htmlmail('programok@fbn-h.hu', 'Jelentkezés a Felelős Családi Vállalkozások IV. konferenciájára', $body);
 			    htmlmail('agoston@11r.hu', 'Jelentkezés a Felelős Családi Vállalkozások IV. konferenciájára', $body);
 
 			    $insert = true;
 			}
-		    
+
 		    }
 		}
 
@@ -201,22 +202,22 @@ class index_controller {
 			if ( $query->insert_row() )
 			{
 			    $signup_id = $query->insert_id;
-			
+
 			    foreach ( $_POST['names'] as $id => $name )
 			    {
 				if ( empty($name) ) continue;
-			    
+
 				$members[] = $name;
-			    
+
 				$vals = array(
 				    'signup_id'	=> $signup_id,
 				    'name'	=> $name,
 				);
-				
+
 				$query = new query();
 				$query->insert('signup_members', $vals)->insert_row();
 			    }
-			    
+
 			    $body = '<h1 style="font: italic normal 20px/25px Georgia;">Kedves ' . $_POST['c_name'] . '!</h1>'
 
 				  . '<p>Sikeresen regisztrált a Felelős Családi Vállalkozások IV. konferenciájára!</p>'
@@ -258,14 +259,14 @@ class index_controller {
 
 				  . '<p>Hamarosan találkozunk,<br />'
 				  . '<b>FBN-H</b></p>';
-			    
+
 			    htmlmail($_POST['c_email'], 'Jelentkezés a Felelős Családi Vállalkozások IV. konferenciájára', $body);
 			    htmlmail('programok@fbn-h.hu', 'Jelentkezés a Felelős Családi Vállalkozások IV. konferenciájára', $body);
 			    htmlmail('agoston@11r.hu', 'Jelentkezés a Felelős Családi Vállalkozások IV. konferenciájára', $body);
 
 			    $insert = true;
 			}
-		    
+
 		    }
 		}
 
@@ -290,15 +291,17 @@ class index_controller {
 
 		break;
 
-	    default : 
+	    default :
 		// a hirek ne jelenjen meg a fooldalon
 		$this->forumlist->filter = new filter('id <>', 13);
 
 		$items		= $this->forumlist->get_list();
 		$articles	= $this->articlelist->get_last_articles($this->scr->sm->user);
 
-		$this->scr->register_var('ITEMS', $items);
+    define('ISHOME', true);
+    $this->scr->register_var('ITEMS', $items);
 		$this->scr->register_var('LAST_ARTICLES', $articles);
+    $this->scr->register_var('FBNHGROUP', $this->grouplist->get_tree(15));
 		$this->scr->set_screen('HOME');
 		break;
 	}
