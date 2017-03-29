@@ -1,0 +1,160 @@
+@media all and (max-width: 1200px){
+  .page-width-holder,
+  #slideshow-container #slideshow-items .slideshow-item > div {
+    width: 970px;
+    max-width: 970px;
+  }
+  #szalag .holder{
+    font-size: 2.4em;
+  }
+  #szalag .holder:before,
+  #szalag .holder:after{
+    font-size: 200px;
+  }
+  #szalag .holder:after{
+    top: -135px;
+  }
+
+  .content-holder section#forum-right h2.page_header, .content-holder section.list-right h2.page_header{
+    font-size: 1.6em;
+  }
+  .content-holder section#forum-right > section article h3 a, .content-holder section.list-right > section article h3 a{
+    font-size: 1em;
+  }
+
+}
+
+@media all and (max-width: 970px){
+  .page-width-holder,
+  #slideshow-container #slideshow-items .slideshow-item > div {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media all and (max-width: 768px)
+{
+  .show-on-mobile {
+   display: block;
+  }
+  .content-holder{
+    display: block;
+  }
+  footer #sitemap > .page-width-holder{
+    flex-wrap: wrap;
+  }
+  footer #sitemap > .page-width-holder > section{
+    text-align: center;
+  }
+  .content-holder section#forum-left, .content-holder section.list-left,
+  .content-holder section#forum-right, .content-holder section.list-right,
+  footer #sitemap > .page-width-holder > section{
+    flex-basis: 100%;
+  }
+  .content-holder section#forum-left, .content-holder section.list-left {
+    padding: 0 25px 25px 25px;
+  }
+  .content-holder section#forum-right h2.page_header, .content-holder section.list-right h2.page_header{
+    margin: 0px -15px 10px -15px;
+  }
+  footer #sitemap article h3{
+    margin: 20px 0 10px 0;
+  }
+  #header-container #topmenu ul > li{
+    display: block;
+    width: 100%;
+    float: none;
+    text-align: left;
+    border-bottom: 1px solid $color-grey-light;
+
+    a {
+      text-align: left;
+    }
+  }
+  #header-container #topmenu ul > li > ul{
+    position: relative;
+    width: 100%;
+    max-width: initial;
+  }
+  #header-container #topmenu ul{
+    display: none;
+  }
+  #header-container #topmenu ul.opened{
+    display: block;
+  }
+  #nav-buttons .holder li{
+    width: calc(100%/2);
+  }
+  .section-holder.flex-grid.grid-x5 > article{
+    flex-basis: calc(100%/2);
+  }
+  .section-holder.flex-grid.grid-x3 > article{
+    flex-basis: calc(100%/2);
+  }
+  #szalag .holder .subtitle{
+    padding-left: 60px;
+  }
+  #menutoggler{
+    font-size: 45px;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 1;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    color: darken($color-grey-light, 10%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    &:active, & i:active{
+      color: darken($color-green, 5%);
+    }
+  }
+}
+// Felső admin menü összecsúszás brakepoint
+@media all and (max-width: 600px){
+  #login-container.logged > #login-box{
+    text-align: center;
+  }
+  #login-container.logged > #login-box #logged-name, #login-container.logged > #login-box nav#user_menu{
+    display: block;
+    text-align: center;
+    float: none;
+  }
+  #login-container.logged > #login-box #logged-name{
+    padding: 10px;
+  }
+  #login-container.logged > #login-box nav#user_menu ul{
+    margin: 0 auto;
+  }
+  #login-container #login-box label, #login-container #login-box input, #login-container #login-box button{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #login-container #login-box label:not(.label-input){
+    display: none;
+  }
+  #mobile-close-login{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 28px;
+    z-index: 100;
+  }
+  #login-container #login-box{
+    display: none;
+  }
+  #login-container #login-box.opened{
+    display: block;
+  }
+  #loginbox-toggler{
+    text-align: right;
+    font-family: $font-sec;
+    font-size: 0.8em;
+  }
+  #loginbox-toggler.hide{
+    display: none;
+  }
+}

@@ -84,7 +84,7 @@ a:hover {
 #login-container {
   background: $page-login-bg;
   color: white;
-  padding: 20px;
+  padding: 10px;
   text-align: right;
 
 
@@ -967,8 +967,10 @@ body.forum {
 
 #header-container {
   background: white;
+  position: relative;
 
   #logo {
+    position: relative;
     text-align: center;
     padding: 25px;
 
@@ -1013,6 +1015,7 @@ body.forum {
 
       & > ul {
         position: absolute;
+        z-index: 1000;
         display: none;
         background: $color-grey-dark;
         width: 250px;
@@ -1541,3 +1544,9 @@ button[type=submit] {
     }
   }
 }
+
+.show-on-mobile {
+ display: none;
+}
+
+@import 'responsive';

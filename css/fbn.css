@@ -3,17 +3,15 @@
   font-family: "Chaparral";
   font-weight: normal;
   font-style: normal;
-  src: url("fonts/ChaparralPro-Regular.ttf") format("ttf"), url("fonts/ChaparralPro-Regular.eot") format("eot"), url("fonts/ChaparralPro-Regular.woff2") format("woff2"), url("fonts/ChaparralPro-Regular.woff") format("woff");
-}
+  src: url("fonts/ChaparralPro-Regular.ttf") format("ttf"), url("fonts/ChaparralPro-Regular.eot") format("eot"), url("fonts/ChaparralPro-Regular.woff2") format("woff2"), url("fonts/ChaparralPro-Regular.woff") format("woff"); }
 
 @font-face {
   font-family: "Chaparral";
   font-weight: bold;
   font-style: normal;
-  src: url("fonts/ChaparralPro-Bold.ttf") format("ttf"), url("fonts/ChaparralPro-Bold.eot?") format("eot"), url("fonts/ChaparralPro-Bold.woff2") format("woff2"), url("fonts/ChaparralPro-Bold.woff") format("woff");
-}
+  src: url("fonts/ChaparralPro-Bold.ttf") format("ttf"), url("fonts/ChaparralPro-Bold.eot?") format("eot"), url("fonts/ChaparralPro-Bold.woff2") format("woff2"), url("fonts/ChaparralPro-Bold.woff") format("woff"); }
 
-/* line 4, sass/fbn.scss */
+/* line 4, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 body, html {
   width: 100%;
   height: 100%;
@@ -21,846 +19,706 @@ body, html {
   color: #515353;
   font-style: normal;
   position: relative;
-  font-family: 'Chaparral', sans-serif;
-}
+  font-family: 'Chaparral', sans-serif; }
 
-/* line 14, sass/fbn.scss */
+/* line 14, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 body:not(.index) {
-  background: #e6e7e8;
-}
+  background: #E6E7E8; }
 
-/* line 18, sass/fbn.scss */
+/* line 18, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
-/* line 22, sass/fbn.scss */
+/* line 22, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 a, a:link, a:visited {
-  color: #56b251;
-  text-decoration: none;
-}
+  color: #56B251;
+  text-decoration: none; }
 
-/* line 27, sass/fbn.scss */
+/* line 27, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 a:hover {
-  color: #78c274;
-}
+  color: #78c274; }
 
-/* line 31, sass/fbn.scss */
+/* line 31, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .page-width-holder {
   width: 1200px;
   max-width: 1200px;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
-/* line 36, sass/fbn.scss */
+/* line 36, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 #nav-buttons {
-  padding: 25px 0;
-}
+  padding: 25px 0; }
 
-/* line 39, sass/fbn.scss */
+/* line 39, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 #szalag {
   background: #323232;
   color: white;
-  padding: 25px 0;
-}
-/* line 44, sass/fbn.scss */
-#szalag .holder {
-  position: relative;
-  font-size: 3.3em;
-  text-align: center;
-}
-/* line 48, sass/fbn.scss */
-#szalag .holder .title {
-  padding-right: 50px;
-  margin-bottom: 25px;
-}
-/* line 52, sass/fbn.scss */
-#szalag .holder .subtitle {
-  color: #56b251;
-  font-size: 0.6em;
-  padding-left: 30px;
-}
-/* line 58, sass/fbn.scss */
-#szalag .holder:before {
-  content: ",,";
-  position: absolute;
-  left: 10px;
-  bottom: -20px;
-  font-size: 240px;
-  line-height: 1;
-  font-family: "Chaparral", serif;
-  letter-spacing: -20px;
-  pointer-events: none;
-}
-/* line 69, sass/fbn.scss */
-#szalag .holder:after {
-  content: ",,";
-  position: absolute;
-  right: 30px;
-  top: -160px;
-  font-size: 240px;
-  line-height: 1;
-  font-family: "Chaparral", serif;
-  letter-spacing: -20px;
-  pointer-events: none;
-}
+  padding: 25px 0; }
+  /* line 44, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #szalag .holder {
+    position: relative;
+    font-size: 3.3em;
+    text-align: center; }
+    /* line 48, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #szalag .holder .title {
+      padding-right: 50px;
+      margin-bottom: 25px; }
+    /* line 52, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #szalag .holder .subtitle {
+      color: #56B251;
+      font-size: 0.6em;
+      padding-left: 30px; }
+    /* line 58, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #szalag .holder:before {
+      content: ",,";
+      position: absolute;
+      left: 10px;
+      bottom: -20px;
+      font-size: 240px;
+      line-height: 1;
+      font-family: "Chaparral", serif;
+      letter-spacing: -20px;
+      pointer-events: none; }
+    /* line 69, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #szalag .holder:after {
+      content: ",,";
+      position: absolute;
+      right: 30px;
+      top: -160px;
+      font-size: 240px;
+      line-height: 1;
+      font-family: "Chaparral", serif;
+      letter-spacing: -20px;
+      pointer-events: none; }
 
-/* line 84, sass/fbn.scss */
+/* line 84, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 #login-container {
-  background: #e62f25;
+  background: #E62F25;
   color: white;
-  padding: 20px;
-  text-align: right;
-}
-/* line 91, sass/fbn.scss */
-#login-container #login-box {
-  font-size: 0.8em;
-}
-/* line 93, sass/fbn.scss */
-#login-container #login-box label, #login-container #login-box input, #login-container #login-box button {
-  height: 25px;
-  line-height: 25px;
-  vertical-align: middle;
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
-  font-family: "PT Sans", sans-serif;
-}
-/* line 103, sass/fbn.scss */
-#login-container #login-box label {
-  padding: 0 5px 0 10px;
-  font-weight: bold;
-}
-/* line 108, sass/fbn.scss */
-#login-container #login-box input {
-  padding: 0 10px;
-  border: none;
-  -webkit-box-shadow: inset 0 2px 10px -5px;
-  -moz-box-shadow: inset 0 2px 10px -5px;
-  box-shadow: inset 0 2px 10px -5px;
-}
-/* line 116, sass/fbn.scss */
-#login-container #login-box button {
-  background: #515352;
-  color: white;
-  padding: 0 15px;
-  border: none;
-  cursor: pointer;
-}
-/* line 125, sass/fbn.scss */
-#login-container.logged > #login-box {
-  display: table;
-  width: 100%;
-}
-/* line 129, sass/fbn.scss */
-#login-container.logged > #login-box #logged-name, #login-container.logged > #login-box nav#user_menu {
-  display: table-cell;
-  vertical-align: middle;
-}
-/* line 133, sass/fbn.scss */
-#login-container.logged > #login-box #logged-name {
-  float: right;
-  font-size: 1.3em;
-}
-/* line 137, sass/fbn.scss */
-#login-container.logged > #login-box #logged-name a {
-  background: #515352;
-  color: white;
-  margin: 2px;
-  padding: 4px;
-  font-size: 0.7em;
-  font-family: "PT Sans", sans-serif;
-}
-/* line 146, sass/fbn.scss */
-#login-container.logged > #login-box nav#user_menu {
-  float: left;
-  margin: 0 -10px;
-}
-/* line 150, sass/fbn.scss */
-#login-container.logged > #login-box nav#user_menu ul, #login-container.logged > #login-box nav#user_menu li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-/* line 156, sass/fbn.scss */
-#login-container.logged > #login-box nav#user_menu ul {
-  display: table;
-  direction: rtl;
-}
-/* line 160, sass/fbn.scss */
-#login-container.logged > #login-box nav#user_menu ul li {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 0 5px;
-}
-/* line 165, sass/fbn.scss */
-#login-container.logged > #login-box nav#user_menu ul li a {
-  background-position: left 36px;
-  display: block;
-  width: 35px;
-  height: 35px;
-  text-indent: -1000em;
-  overflow: hidden;
-}
-/* line 174, sass/fbn.scss */
-#login-container.logged > #login-box nav#user_menu ul li.companies a {
-  background-image: url(/images/menu_companies.png);
-}
-/* line 178, sass/fbn.scss */
-#login-container.logged > #login-box nav#user_menu ul li.groups a {
-  background-image: url(/images/menu_groups.png);
-}
-/* line 182, sass/fbn.scss */
-#login-container.logged > #login-box nav#user_menu ul li.levlists a {
-  background-image: url(/images/menu_levlists.png);
-}
-/* line 186, sass/fbn.scss */
-#login-container.logged > #login-box nav#user_menu ul li.newsletter a {
-  background-image: url(/images/menu_newsletter.png);
-}
-/* line 190, sass/fbn.scss */
-#login-container.logged > #login-box nav#user_menu ul li.forums a {
-  background-image: url(/images/menu_forums.png);
-}
-/* line 194, sass/fbn.scss */
-#login-container.logged > #login-box nav#user_menu ul li.calendar a {
-  background-image: url(/images/menu_calendar.png);
-}
-/* line 198, sass/fbn.scss */
-#login-container.logged > #login-box nav#user_menu ul li.users a {
-  background-image: url(/images/menu_users.png);
-}
-/* line 202, sass/fbn.scss */
-#login-container.logged > #login-box nav#user_menu ul li.articles a {
-  background-image: url(/images/menu_articles.png);
-}
-/* line 207, sass/fbn.scss */
-#login-container.logged > #login-box nav#user_menu ul li:hover a, #login-container.logged > #login-box nav#user_menu ul li > a.selected {
-  background-position: left 0px;
-}
+  padding: 10px;
+  text-align: right; }
+  /* line 91, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #login-container #login-box {
+    font-size: 0.8em; }
+    /* line 93, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #login-container #login-box label, #login-container #login-box input, #login-container #login-box button {
+      height: 25px;
+      line-height: 25px;
+      vertical-align: middle;
+      display: inline-block;
+      *display: inline;
+      zoom: 1;
+      font-family: "PT Sans", sans-serif; }
+    /* line 103, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #login-container #login-box label {
+      padding: 0 5px 0 10px;
+      font-weight: bold; }
+    /* line 108, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #login-container #login-box input {
+      padding: 0 10px;
+      border: none;
+      -webkit-box-shadow: inset 0 2px 10px -5px;
+      -moz-box-shadow: inset 0 2px 10px -5px;
+      box-shadow: inset 0 2px 10px -5px; }
+    /* line 116, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #login-container #login-box button {
+      background: #515352;
+      color: white;
+      padding: 0 15px;
+      border: none;
+      cursor: pointer; }
+  /* line 125, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #login-container.logged > #login-box {
+    display: table;
+    width: 100%; }
+    /* line 129, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #login-container.logged > #login-box #logged-name, #login-container.logged > #login-box nav#user_menu {
+      display: table-cell;
+      vertical-align: middle; }
+    /* line 133, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #login-container.logged > #login-box #logged-name {
+      float: right;
+      font-size: 1.3em; }
+      /* line 137, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      #login-container.logged > #login-box #logged-name a {
+        background: #515352;
+        color: white;
+        margin: 2px;
+        padding: 4px;
+        font-size: 0.7em;
+        font-family: "PT Sans", sans-serif; }
+    /* line 146, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #login-container.logged > #login-box nav#user_menu {
+      float: left;
+      margin: 0 -10px; }
+      /* line 150, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      #login-container.logged > #login-box nav#user_menu ul, #login-container.logged > #login-box nav#user_menu li {
+        margin: 0;
+        padding: 0;
+        list-style: none; }
+      /* line 156, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      #login-container.logged > #login-box nav#user_menu ul {
+        display: table;
+        direction: rtl; }
+        /* line 160, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        #login-container.logged > #login-box nav#user_menu ul li {
+          display: table-cell;
+          vertical-align: middle;
+          padding: 0 5px; }
+          /* line 165, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          #login-container.logged > #login-box nav#user_menu ul li a {
+            background-position: left 36px;
+            display: block;
+            width: 35px;
+            height: 35px;
+            text-indent: -1000em;
+            overflow: hidden; }
+          /* line 174, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          #login-container.logged > #login-box nav#user_menu ul li.companies a {
+            background-image: url(/images/menu_companies.png); }
+          /* line 178, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          #login-container.logged > #login-box nav#user_menu ul li.groups a {
+            background-image: url(/images/menu_groups.png); }
+          /* line 182, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          #login-container.logged > #login-box nav#user_menu ul li.levlists a {
+            background-image: url(/images/menu_levlists.png); }
+          /* line 186, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          #login-container.logged > #login-box nav#user_menu ul li.newsletter a {
+            background-image: url(/images/menu_newsletter.png); }
+          /* line 190, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          #login-container.logged > #login-box nav#user_menu ul li.forums a {
+            background-image: url(/images/menu_forums.png); }
+          /* line 194, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          #login-container.logged > #login-box nav#user_menu ul li.calendar a {
+            background-image: url(/images/menu_calendar.png); }
+          /* line 198, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          #login-container.logged > #login-box nav#user_menu ul li.users a {
+            background-image: url(/images/menu_users.png); }
+          /* line 202, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          #login-container.logged > #login-box nav#user_menu ul li.articles a {
+            background-image: url(/images/menu_articles.png); }
+          /* line 206, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          #login-container.logged > #login-box nav#user_menu ul li:hover a,
+          #login-container.logged > #login-box nav#user_menu ul li > a.selected {
+            background-position: left 0px; }
 
-/* line 217, sass/fbn.scss */
+/* line 217, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .left {
   float: left;
   display: inline-block;
   *display: inline;
-  zoom: 1;
-}
+  zoom: 1; }
 
-/* line 223, sass/fbn.scss */
+/* line 223, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .right {
   float: right;
   display: inline-block;
   *display: inline;
-  zoom: 1;
-}
+  zoom: 1; }
 
-/* line 230, sass/fbn.scss */
+/* line 230, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .newsletter-items {
-  margin: 20px 0;
-}
-/* line 232, sass/fbn.scss */
-.newsletter-items .left {
-  width: 40%;
-}
-/* line 235, sass/fbn.scss */
-.newsletter-items .left ul {
-  max-height: 400px;
-  overflow: auto;
-}
-/* line 240, sass/fbn.scss */
-.newsletter-items .right {
-  width: 60%;
-}
-/* line 244, sass/fbn.scss */
-.newsletter-items .connected-articles {
-  border: 5px solid #f1f1f1;
-}
-/* line 248, sass/fbn.scss */
-.newsletter-items ul {
-  background: #cdcdcd;
-}
-/* line 251, sass/fbn.scss */
-.newsletter-items ul, .newsletter-items li {
-  list-style: none;
-  margin: 0 !important;
-  padding: 0;
-}
-/* line 256, sass/fbn.scss */
-.newsletter-items li .item-content {
-  display: none;
-}
-/* line 260, sass/fbn.scss */
-.newsletter-items li {
-  background: #ffffff;
-  margin: 5px !important;
-  padding: 5px !important;
-  cursor: move;
-}
-/* line 265, sass/fbn.scss */
-.newsletter-items li h3 {
-  font-size: 1em;
-  margin: 0 !important;
-}
-/* line 271, sass/fbn.scss */
-.newsletter-items .selected-items {
-  padding: 0 0 0 25px;
-}
-/* line 275, sass/fbn.scss */
-.newsletter-items .selected-items-content {
-  min-height: 400px;
-  background: #ffffff;
-  border: 5px solid #f1f1f1;
-  padding: 10px;
-}
-/* line 281, sass/fbn.scss */
-.newsletter-items .selected-items-content h2 {
-  border-bottom: 1px solid #e1e1e1;
-  margin: 0 0 10px 0;
-  padding: 0 0 10px 0;
-}
-/* line 287, sass/fbn.scss */
-.newsletter-items .selected-items-content ul {
-  border: none;
-  min-height: 350px;
-  background: #ffffff;
-}
-/* line 292, sass/fbn.scss */
-.newsletter-items .selected-items-content ul li {
-  float: left;
-  width: 50%;
-  margin: 0 -1px !important;
-}
-/* line 297, sass/fbn.scss */
-.newsletter-items .selected-items-content ul li h3 {
-  font-weight: bold;
-  font-size: 1.2em;
-}
-/* line 302, sass/fbn.scss */
-.newsletter-items .selected-items-content ul li .item-content {
-  display: block;
-}
+  margin: 20px 0; }
+  /* line 232, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .newsletter-items .left {
+    width: 40%; }
+    /* line 235, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .newsletter-items .left ul {
+      max-height: 400px;
+      overflow: auto; }
+  /* line 240, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .newsletter-items .right {
+    width: 60%; }
+  /* line 244, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .newsletter-items .connected-articles {
+    border: 5px solid #f1f1f1; }
+  /* line 248, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .newsletter-items ul {
+    background: #cdcdcd; }
+  /* line 251, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .newsletter-items ul, .newsletter-items li {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0; }
+  /* line 256, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .newsletter-items li .item-content {
+    display: none; }
+  /* line 260, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .newsletter-items li {
+    background: #ffffff;
+    margin: 5px !important;
+    padding: 5px !important;
+    cursor: move; }
+    /* line 265, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .newsletter-items li h3 {
+      font-size: 1em;
+      margin: 0 !important; }
+  /* line 271, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .newsletter-items .selected-items {
+    padding: 0 0 0 25px; }
+  /* line 275, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .newsletter-items .selected-items-content {
+    min-height: 400px;
+    background: #ffffff;
+    border: 5px solid #f1f1f1;
+    padding: 10px; }
+    /* line 281, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .newsletter-items .selected-items-content h2 {
+      border-bottom: 1px solid #e1e1e1;
+      margin: 0 0 10px 0;
+      padding: 0 0 10px 0; }
+    /* line 287, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .newsletter-items .selected-items-content ul {
+      border: none;
+      min-height: 350px;
+      background: #ffffff; }
+      /* line 292, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      .newsletter-items .selected-items-content ul li {
+        float: left;
+        width: 50%;
+        margin: 0 -1px !important; }
+        /* line 297, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        .newsletter-items .selected-items-content ul li h3 {
+          font-weight: bold;
+          font-size: 1.2em; }
+        /* line 302, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        .newsletter-items .selected-items-content ul li .item-content {
+          display: block; }
 
-/* line 311, sass/fbn.scss */
+/* line 311, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 form dl {
   display: block;
-  width: 100%;
-}
-/* line 316, sass/fbn.scss */
-form dl label {
-  font-weight: bold;
-  font-size: 0.9em;
-  color: black;
-  margin: 10px 0 5px 0;
-  display: block;
-}
-/* line 329, sass/fbn.scss */
-form dl input[type=text],
-form dl input[type=password],
-form dl input[type=number],
-form dl input[type=tel],
-form dl input[type=email],
-form dl textarea {
-  width: 100%;
-  line-height: 35px;
-  padding: 0 8px;
-  font-size: 1.2em;
-  background: #f8f8f8;
-  border: 1px solid #dadada;
-}
-/* line 339, sass/fbn.scss */
-form dl dt, form dl dd {
-  margin: 4px 0;
-  padding: 0;
-  width: 100%;
-}
-/* line 344, sass/fbn.scss */
-form dl dt.radio, form dl dd.radio {
-  float: left;
-  width: auto;
-  height: 25px;
-  line-height: 25px;
-  vertical-align: middle;
-  padding: 0 3px;
-  clear: none;
-}
-/* line 353, sass/fbn.scss */
-form dl dt.radio label, form dl dd.radio label {
-  margin: 0;
-  line-height: 25px;
-  height: 25px;
-}
+  width: 100%; }
+  /* line 316, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  form dl label {
+    font-weight: bold;
+    font-size: 0.9em;
+    color: black;
+    margin: 10px 0 5px 0;
+    display: block; }
+  /* line 324, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  form dl input[type=text],
+  form dl input[type=password],
+  form dl input[type=number],
+  form dl input[type=tel],
+  form dl input[type=email],
+  form dl textarea {
+    width: 100%;
+    line-height: 35px;
+    padding: 0 8px;
+    font-size: 1.2em;
+    background: #f8f8f8;
+    border: 1px solid #dadada; }
+  /* line 339, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  form dl dt, form dl dd {
+    margin: 4px 0;
+    padding: 0;
+    width: 100%; }
+    /* line 344, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    form dl dt.radio, form dl dd.radio {
+      float: left;
+      width: auto;
+      height: 25px;
+      line-height: 25px;
+      vertical-align: middle;
+      padding: 0 3px;
+      clear: none; }
+      /* line 353, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      form dl dt.radio label, form dl dd.radio label {
+        margin: 0;
+        line-height: 25px;
+        height: 25px; }
 
-/* line 364, sass/fbn.scss */
+/* line 364, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 #calendar-list .eventitem {
   margin: 0 0 10px 0;
   padding: 0 0 10px 0;
-  border-bottom: 1px solid white;
-}
-/* line 369, sass/fbn.scss */
-#calendar-list .eventitem h3 {
-  margin-bottom: 8px;
-  font-size: 1.3em;
-}
+  border-bottom: 1px solid white; }
+  /* line 369, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #calendar-list .eventitem h3 {
+    margin-bottom: 8px;
+    font-size: 1.3em; }
 
-/* line 376, sass/fbn.scss */
+/* line 376, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .eventlist .eventitem {
   margin: 0 0 25px 0;
   padding: 0 0 25px 0;
-  border-bottom: 1px solid #323232;
-}
-/* line 381, sass/fbn.scss */
-.eventlist .eventitem h3 {
-  font-size: 1.8em;
-  margin: 0 0 25px 0;
-}
+  border-bottom: 1px solid #323232; }
+  /* line 381, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .eventlist .eventitem h3 {
+    font-size: 1.8em;
+    margin: 0 0 25px 0; }
 
-/* line 387, sass/fbn.scss */
+/* line 387, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 #calendar-content {
-  background: #222222;
-}
-/* line 390, sass/fbn.scss */
-#calendar-content .calendar-pager {
-  text-align: center;
-  padding: 10px;
-  font-size: 1.3em;
-  color: white;
-  font-weight: bold;
-}
-/* line 397, sass/fbn.scss */
-#calendar-content .calendar-pager a {
-  color: #56b251;
-}
-/* line 401, sass/fbn.scss */
-#calendar-content .calendar-pager .year-next {
-  margin-right: 8px;
-}
-/* line 404, sass/fbn.scss */
-#calendar-content .calendar-pager .month-prev {
-  margin-left: 8px;
-}
-/* line 410, sass/fbn.scss */
-#calendar-content table th {
-  font-size: 0.9em;
-}
-/* line 413, sass/fbn.scss */
-#calendar-content table td {
-  padding: 5px 2px;
-  text-align: center;
-  background: #222;
-  color: #444444;
-}
-/* line 419, sass/fbn.scss */
-#calendar-content table td.current {
-  background: #343434;
-  color: #999999;
-}
-/* line 423, sass/fbn.scss */
-#calendar-content table td.hasevent {
-  background: #e62f25;
-}
-/* line 426, sass/fbn.scss */
-#calendar-content table td.hasevent a {
-  color: white;
-  display: block;
-}
+  background: #222222; }
+  /* line 390, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #calendar-content .calendar-pager {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3em;
+    color: white;
+    font-weight: bold; }
+    /* line 397, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #calendar-content .calendar-pager a {
+      color: #56B251; }
+    /* line 401, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #calendar-content .calendar-pager .year-next {
+      margin-right: 8px; }
+    /* line 404, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #calendar-content .calendar-pager .month-prev {
+      margin-left: 8px; }
+  /* line 410, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #calendar-content table th {
+    font-size: 0.9em; }
+  /* line 413, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #calendar-content table td {
+    padding: 5px 2px;
+    text-align: center;
+    background: #222;
+    color: #444444; }
+  /* line 419, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #calendar-content table td.current {
+    background: #343434;
+    color: #999999; }
+  /* line 423, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #calendar-content table td.hasevent {
+    background: #E62F25; }
+    /* line 426, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #calendar-content table td.hasevent a {
+      color: white;
+      display: block; }
 
-/* line 433, sass/fbn.scss */
+/* line 433, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .message {
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   border-radius: 0 !important;
-  padding: 10px !important;
-}
-/* line 439, sass/fbn.scss */
-.message .right, .message .left {
-  float: none;
-  text-align: left;
-}
-/* line 444, sass/fbn.scss */
-.message:after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 1px;
-  clear: both;
-}
+  padding: 10px !important; }
+  /* line 439, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .message .right, .message .left {
+    float: none;
+    text-align: left; }
+  /* line 444, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .message:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    clear: both; }
 
-/* line 452, sass/fbn.scss */
+/* line 452, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .error {
-  background: #e62f25;
-}
+  background: #E62F25; }
 
-/* line 456, sass/fbn.scss */
+/* line 456, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .chzn-container-single .chzn-single div b {
-  background-position: 0 5px;
-}
+  background-position: 0 5px; }
 
-/* line 459, sass/fbn.scss */
+/* line 459, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .chzn-container-active .chzn-single-with-drop div b {
-  background-position: -18px 5px;
-}
+  background-position: -18px 5px; }
 
-/* line 462, sass/fbn.scss */
+/* line 462, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .chzn-container {
-  width: 100% !important;
-}
-/* line 465, sass/fbn.scss */
-.chzn-container .chzn-single {
-  line-height: 36px;
-  font-size: 1.2em;
-  height: 36px;
-  background: #f8f8f8;
-  border: 1px solid #dadada;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-}
-/* line 475, sass/fbn.scss */
-.chzn-container .chzn-drop {
-  width: 100% !important;
-}
-/* line 479, sass/fbn.scss */
-.chzn-container .chzn-search input {
-  width: 100% !important;
-  height: 25px;
-}
-/* line 484, sass/fbn.scss */
-.chzn-container .chzn-results {
-  margin: 0 !important;
-}
+  width: 100% !important; }
+  /* line 465, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .chzn-container .chzn-single {
+    line-height: 36px;
+    font-size: 1.2em;
+    height: 36px;
+    background: #f8f8f8;
+    border: 1px solid #dadada;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0; }
+  /* line 475, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .chzn-container .chzn-drop {
+    width: 100% !important; }
+  /* line 479, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .chzn-container .chzn-search input {
+    width: 100% !important;
+    height: 25px; }
+  /* line 484, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .chzn-container .chzn-results {
+    margin: 0 !important; }
 
-/* line 490, sass/fbn.scss */
+/* line 490, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .right_cont > div {
   display: inline-block;
   *display: inline;
   zoom: 1;
-  padding: 0 5px;
-}
-/* line 496, sass/fbn.scss */
-.right_cont > div label {
-  display: inherit;
-}
+  padding: 0 5px; }
+  /* line 496, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .right_cont > div label {
+    display: inherit; }
 
-/* line 502, sass/fbn.scss */
+/* line 502, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 table.table {
-  border-collapse: collapse;
-}
-/* line 505, sass/fbn.scss */
-table.table thead th {
-  background: #e6e7e8;
-  padding: 5px;
-  font-size: 0.8em;
-  color: #323232;
-}
-/* line 515, sass/fbn.scss */
-table.table tbody tr td {
-  border-right: 1px solid #e6e7e8;
-  padding: 5px;
-}
-/* line 519, sass/fbn.scss */
-table.table tbody tr:nth-child(even) {
-  background: #f2f2f2;
-}
-/* line 526, sass/fbn.scss */
-table.table.sortable tbody tr {
-  cursor: row-resize;
-}
+  border-collapse: collapse; }
+  /* line 505, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  table.table thead th {
+    background: #E6E7E8;
+    padding: 5px;
+    font-size: 0.8em;
+    color: #323232; }
+  /* line 515, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  table.table tbody tr td {
+    border-right: 1px solid #E6E7E8;
+    padding: 5px; }
+  /* line 519, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  table.table tbody tr:nth-child(even) {
+    background: #f2f2f2; }
+  /* line 526, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  table.table.sortable tbody tr {
+    cursor: row-resize; }
 
-/* line 532, sass/fbn.scss */
+/* line 532, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .content-holder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 0 -10px;
-  padding-bottom: 20px;
-}
-/* line 539, sass/fbn.scss */
-.content-holder .fullpage {
-  flex-basis: 100%;
-  margin-top: 25px;
-}
-/* line 544, sass/fbn.scss */
-.content-holder section {
-  padding: 0 10px;
-}
-/* line 548, sass/fbn.scss */
-.content-holder section#forum-left, .content-holder section.list-left {
-  flex-basis: 70%;
-}
-/* line 551, sass/fbn.scss */
-.content-holder section#forum-left h2.page_header, .content-holder section.list-left h2.page_header {
-  text-align: left;
-  margin: 25px 0;
-}
-/* line 556, sass/fbn.scss */
-.content-holder section#forum-right, .content-holder section.list-right {
-  flex-basis: 30%;
-}
-/* line 559, sass/fbn.scss */
-.content-holder section#forum-right .forum-lead, .content-holder section.list-right .forum-lead {
-  color: white;
-  text-align: justify;
-}
-/* line 562, sass/fbn.scss */
-.content-holder section#forum-right .forum-lead h3, .content-holder section.list-right .forum-lead h3 {
-  text-transform: uppercase;
-  margin: 0 0 10px 0;
-  font-size: 2em;
-  text-align: center;
-}
-/* line 569, sass/fbn.scss */
-.content-holder section#forum-right .forum-lead .description, .content-holder section.list-right .forum-lead .description {
-  line-height: 1.2;
-  font-size: 0.9em;
-  font-style: italic;
-}
-/* line 577, sass/fbn.scss */
-.content-holder section#forum-right form .form-row, .content-holder section.list-right form .form-row {
-  margin: 5px 0;
-}
-/* line 580, sass/fbn.scss */
-.content-holder section#forum-right form .form-row label, .content-holder section.list-right form .form-row label {
-  padding: 4px 0;
-  font-weight: bold;
-  display: block;
-}
-/* line 586, sass/fbn.scss */
-.content-holder section#forum-right form .form-row input, .content-holder section.list-right form .form-row input {
-  width: 100%;
-  display: block;
-  margin: 4px;
-  padding: 5px;
-  border: none;
-}
-/* line 596, sass/fbn.scss */
-.content-holder section#forum-right > section, .content-holder section.list-right > section {
-  background: rgba(0, 0, 0, 0.77);
-  margin-top: -8px;
-  padding: 15px;
-  color: #cecece;
-  font-size: 0.9em;
-}
-/* line 603, sass/fbn.scss */
-.content-holder section#forum-right > section section, .content-holder section.list-right > section section {
-  padding: 0;
-}
-/* line 607, sass/fbn.scss */
-.content-holder section#forum-right > section > h3, .content-holder section.list-right > section > h3 {
-  color: white;
-  margin: 10px 0;
-}
-/* line 612, sass/fbn.scss */
-.content-holder section#forum-right > section > ul, .content-holder section.list-right > section > ul {
-  margin-left: 20px;
-}
-/* line 616, sass/fbn.scss */
-.content-holder section#forum-right > section article, .content-holder section.list-right > section article {
-  border-bottom: 1px solid white;
-  margin: 10px 0;
-  padding: 10px 0;
-}
-/* line 621, sass/fbn.scss */
-.content-holder section#forum-right > section article h3, .content-holder section.list-right > section article h3 {
-  margin: 0 0 10px 0;
-}
-/* line 623, sass/fbn.scss */
-.content-holder section#forum-right > section article h3 a, .content-holder section.list-right > section article h3 a {
-  color: white;
-  font-size: 1.2em;
-}
-/* line 626, sass/fbn.scss */
-.content-holder section#forum-right > section article h3 a:hover, .content-holder section.list-right > section article h3 a:hover {
-  color: #56b251;
-}
-/* line 632, sass/fbn.scss */
-.content-holder section#forum-right > section article header, .content-holder section.list-right > section article header {
-  font-family: "PT Sans", sans-serif;
-  margin: 15px 0;
-  font-size: 0.8em;
-  padding: 5px 0;
-  border: 1px solid #7d7d7d;
-  border-left: none;
-  border-right: none;
-  font-weight: bold;
-}
-/* line 642, sass/fbn.scss */
-.content-holder section#forum-right > section article header span, .content-holder section.list-right > section article header span {
-  color: #56b251;
-}
-/* line 646, sass/fbn.scss */
-.content-holder section#forum-right > section article header a, .content-holder section.list-right > section article header a {
-  color: #ffffff !important;
-}
-/* line 649, sass/fbn.scss */
-.content-holder section#forum-right > section article header a:hover, .content-holder section.list-right > section article header a:hover {
-  color: #e62f25 !important;
-}
-/* line 655, sass/fbn.scss */
-.content-holder section#forum-right > section article .more, .content-holder section.list-right > section article .more {
-  text-align: right;
-}
-/* line 658, sass/fbn.scss */
-.content-holder section#forum-right > section article .more a, .content-holder section.list-right > section article .more a {
-  background: #e62f25;
-  padding: 8px 10px;
-  color: white;
-  text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
-  font-size: 0.8em;
-  display: block;
-  float: right;
-}
-/* line 671, sass/fbn.scss */
-.content-holder section#forum-right > section article:last-child, .content-holder section.list-right > section article:last-child {
-  border-bottom: none;
-}
-/* line 677, sass/fbn.scss */
-.content-holder section#forum-right h2.page_header, .content-holder section.list-right h2.page_header {
-  background: #56b251;
-  color: white;
-  margin: 20px -15px 10px -15px;
-  font-size: 2em;
-  padding: 20px;
-}
-/* line 686, sass/fbn.scss */
-.content-holder .content-page {
-  background: white;
-  padding: 20px;
-  color: #939293;
-}
-/* line 691, sass/fbn.scss */
-.content-holder .content-page ul {
-  margin: 10px 0 10px 20px;
-}
-/* line 695, sass/fbn.scss */
-.content-holder .content-page #editor_leader {
-  color: #7a787a;
-  margin-bottom: 25px;
-}
-/* line 700, sass/fbn.scss */
-.content-holder .content-page h1, .content-holder .content-page h2, .content-holder .content-page h3, .content-holder .content-page h4, .content-holder .content-page h5 {
-  font-family: "Chaparral", serif;
-  color: #56b251;
-  margin: 5px 0 10px 0;
-  font-weight: initial;
-}
-/* line 707, sass/fbn.scss */
-.content-holder .content-page p {
-  margin: 10px 0;
-}
+  padding-bottom: 20px; }
+  /* line 539, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .content-holder .fullpage {
+    flex-basis: 100%;
+    margin-top: 25px; }
+  /* line 544, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .content-holder section {
+    padding: 0 10px; }
+  /* line 548, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .content-holder section#forum-left, .content-holder section.list-left {
+    flex-basis: 70%; }
+    /* line 551, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .content-holder section#forum-left h2.page_header, .content-holder section.list-left h2.page_header {
+      text-align: left;
+      margin: 25px 0; }
+  /* line 556, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .content-holder section#forum-right, .content-holder section.list-right {
+    flex-basis: 30%; }
+    /* line 559, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .content-holder section#forum-right .forum-lead, .content-holder section.list-right .forum-lead {
+      color: white;
+      text-align: justify; }
+      /* line 562, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      .content-holder section#forum-right .forum-lead h3, .content-holder section.list-right .forum-lead h3 {
+        text-transform: uppercase;
+        margin: 0 0 10px 0;
+        font-size: 2em;
+        text-align: center; }
+      /* line 569, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      .content-holder section#forum-right .forum-lead .description, .content-holder section.list-right .forum-lead .description {
+        line-height: 1.2;
+        font-size: 0.9em;
+        font-style: italic; }
+    /* line 577, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .content-holder section#forum-right form .form-row, .content-holder section.list-right form .form-row {
+      margin: 5px 0; }
+      /* line 580, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      .content-holder section#forum-right form .form-row label, .content-holder section.list-right form .form-row label {
+        padding: 4px 0;
+        font-weight: bold;
+        display: block; }
+      /* line 586, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      .content-holder section#forum-right form .form-row input, .content-holder section.list-right form .form-row input {
+        width: 100%;
+        display: block;
+        margin: 4px;
+        padding: 5px;
+        border: none; }
+    /* line 596, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .content-holder section#forum-right > section, .content-holder section.list-right > section {
+      background: rgba(0, 0, 0, 0.77);
+      margin-top: -8px;
+      padding: 15px;
+      color: #cecece;
+      font-size: 0.9em; }
+      /* line 603, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      .content-holder section#forum-right > section section, .content-holder section.list-right > section section {
+        padding: 0; }
+      /* line 607, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      .content-holder section#forum-right > section > h3, .content-holder section.list-right > section > h3 {
+        color: white;
+        margin: 10px 0; }
+      /* line 612, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      .content-holder section#forum-right > section > ul, .content-holder section.list-right > section > ul {
+        margin-left: 20px; }
+      /* line 616, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      .content-holder section#forum-right > section article, .content-holder section.list-right > section article {
+        border-bottom: 1px solid white;
+        margin: 10px 0;
+        padding: 10px 0; }
+        /* line 621, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        .content-holder section#forum-right > section article h3, .content-holder section.list-right > section article h3 {
+          margin: 0 0 10px 0; }
+          /* line 623, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          .content-holder section#forum-right > section article h3 a, .content-holder section.list-right > section article h3 a {
+            color: white;
+            font-size: 1.2em; }
+            /* line 626, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+            .content-holder section#forum-right > section article h3 a:hover, .content-holder section.list-right > section article h3 a:hover {
+              color: #56B251; }
+        /* line 632, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        .content-holder section#forum-right > section article header, .content-holder section.list-right > section article header {
+          font-family: "PT Sans", sans-serif;
+          margin: 15px 0;
+          font-size: 0.8em;
+          padding: 5px 0;
+          border: 1px solid #7d7d7d;
+          border-left: none;
+          border-right: none;
+          font-weight: bold; }
+          /* line 642, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          .content-holder section#forum-right > section article header span, .content-holder section.list-right > section article header span {
+            color: #56B251; }
+          /* line 646, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          .content-holder section#forum-right > section article header a, .content-holder section.list-right > section article header a {
+            color: #ffffff !important; }
+            /* line 649, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+            .content-holder section#forum-right > section article header a:hover, .content-holder section.list-right > section article header a:hover {
+              color: #E62F25 !important; }
+        /* line 655, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        .content-holder section#forum-right > section article .more, .content-holder section.list-right > section article .more {
+          text-align: right; }
+          /* line 658, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          .content-holder section#forum-right > section article .more a, .content-holder section.list-right > section article .more a {
+            background: #E62F25;
+            padding: 8px 10px;
+            color: white;
+            text-transform: uppercase;
+            font-family: "PT Sans", sans-serif;
+            font-weight: bold;
+            font-size: 0.8em;
+            display: block;
+            float: right; }
+        /* line 671, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        .content-holder section#forum-right > section article:last-child, .content-holder section.list-right > section article:last-child {
+          border-bottom: none; }
+    /* line 677, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .content-holder section#forum-right h2.page_header, .content-holder section.list-right h2.page_header {
+      background: #56B251;
+      color: white;
+      margin: 20px -15px 10px -15px;
+      font-size: 2em;
+      padding: 20px; }
+  /* line 686, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .content-holder .content-page {
+    background: white;
+    padding: 20px;
+    color: #939293; }
+    /* line 691, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .content-holder .content-page ul {
+      margin: 10px 0 10px 20px; }
+    /* line 695, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .content-holder .content-page #editor_leader {
+      color: #7a787a;
+      margin-bottom: 25px; }
+    /* line 700, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .content-holder .content-page h1, .content-holder .content-page h2, .content-holder .content-page h3, .content-holder .content-page h4, .content-holder .content-page h5 {
+      font-family: "Chaparral", serif;
+      color: #56B251;
+      margin: 5px 0 10px 0;
+      font-weight: initial; }
+    /* line 707, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .content-holder .content-page p {
+      margin: 10px 0; }
 
-/* line 713, sass/fbn.scss */
+/* line 713, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 #container-logged {
   /*background: white;
   width: $page-width;
   margin: 0 auto;
-  padding: 25px;*/
-}
+  padding: 25px;*/ }
 
-/* line 723, sass/fbn.scss */
+/* line 723, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 body.content div.userblock,
 body.companies div.userblock,
 body.users div.userblock {
   margin: 0 0 15px 0;
   padding: 0 0 15px 0;
-  border-bottom: 1px solid #BBBDBF;
-}
-/* line 728, sass/fbn.scss */
-body.content div.userblock header,
-body.companies div.userblock header,
-body.users div.userblock header {
-  color: #939293;
-  font-family: "PT Sans", sans-serif;
-  margin: 10px 0;
-  font-size: 0.7em;
-  font-weight: bold;
-}
-/* line 735, sass/fbn.scss */
-body.content div.userblock header span,
-body.companies div.userblock header span,
-body.users div.userblock header span {
-  color: #56b251;
-}
-/* line 739, sass/fbn.scss */
-body.content div.userblock header a,
-body.companies div.userblock header a,
-body.users div.userblock header a {
-  color: #939293 !important;
-}
-/* line 742, sass/fbn.scss */
-body.content div.userblock header a:hover,
-body.companies div.userblock header a:hover,
-body.users div.userblock header a:hover {
-  color: #323232 !important;
-}
-/* line 750, sass/fbn.scss */
+  border-bottom: 1px solid #BBBDBF; }
+  /* line 728, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  body.content div.userblock header,
+  body.companies div.userblock header,
+  body.users div.userblock header {
+    color: #939293;
+    font-family: "PT Sans", sans-serif;
+    margin: 10px 0;
+    font-size: 0.7em;
+    font-weight: bold; }
+    /* line 735, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    body.content div.userblock header span,
+    body.companies div.userblock header span,
+    body.users div.userblock header span {
+      color: #56B251; }
+    /* line 739, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    body.content div.userblock header a,
+    body.companies div.userblock header a,
+    body.users div.userblock header a {
+      color: #939293 !important; }
+      /* line 742, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      body.content div.userblock header a:hover,
+      body.companies div.userblock header a:hover,
+      body.users div.userblock header a:hover {
+        color: #323232 !important; }
+
+/* line 750, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 body.content .newsletter-content img,
 body.companies .newsletter-content img,
 body.users .newsletter-content img {
   max-width: 100%  !important;
   width: 100%  !important;
   height: auto !important;
-  max-height: initial !important;
-}
+  max-height: initial !important; }
 
-/* line 761, sass/fbn.scss */
+/* line 761, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 body.companies .userblock .image {
   float: left;
-  margin: 0 20px 20px 0;
-}
-/* line 765, sass/fbn.scss */
-body.companies .userblock .data {
-  float: left;
-}
-/* line 769, sass/fbn.scss */
-body.companies .userblock .data table td {
-  padding: 4px;
-  vertical-align: top;
-}
-/* line 773, sass/fbn.scss */
-body.companies .userblock .data table td ul, body.companies .userblock .data table td li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-/* line 779, sass/fbn.scss */
-body.companies .userblock .data table tr td:last-child {
-  color: #56b251;
-  font-weight: bold;
-}
+  margin: 0 20px 20px 0; }
 
-/* line 790, sass/fbn.scss */
+/* line 765, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+body.companies .userblock .data {
+  float: left; }
+  /* line 769, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  body.companies .userblock .data table td {
+    padding: 4px;
+    vertical-align: top; }
+    /* line 773, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    body.companies .userblock .data table td ul, body.companies .userblock .data table td li {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+  /* line 779, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  body.companies .userblock .data table tr td:last-child {
+    color: #56B251;
+    font-weight: bold; }
+
+/* line 790, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .data table td {
   padding: 4px;
-  vertical-align: top;
-}
-/* line 794, sass/fbn.scss */
-.data table td ul, .data table td li {
-  margin: 0 !important;
-  padding: 0 !important;
-  list-style: none;
-}
-/* line 800, sass/fbn.scss */
-.data table tr td:last-child {
-  color: #56b251;
-  font-weight: bold;
-}
+  vertical-align: top; }
+  /* line 794, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .data table td ul, .data table td li {
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none; }
 
-/* line 807, sass/fbn.scss */
+/* line 800, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+.data table tr td:last-child {
+  color: #56B251;
+  font-weight: bold; }
+
+/* line 807, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .search-request {
   padding: 5px 0;
   border-bottom: 1px solid #acacac;
-  margin-bottom: 10px;
-}
-/* line 812, sass/fbn.scss */
-.search-request span {
-  color: #56b251;
-  font-weight: bold;
-}
+  margin-bottom: 10px; }
+  /* line 812, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .search-request span {
+    color: #56B251;
+    font-weight: bold; }
 
-/* line 818, sass/fbn.scss */
+/* line 818, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 a.editing {
   background: #8b8b8b;
   padding: 5px 10px;
@@ -871,10 +729,9 @@ a.editing {
   margin: 0 5px;
   font-size: 0.4em;
   text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
-}
+  font-family: "PT Sans", sans-serif; }
 
-/* line 831, sass/fbn.scss */
+/* line 831, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 a.creator {
   background: #e9453c;
   padding: 5px 10px;
@@ -885,10 +742,9 @@ a.creator {
   margin: 0 5px;
   font-size: 0.4em;
   text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
-}
+  font-family: "PT Sans", sans-serif; }
 
-/* line 844, sass/fbn.scss */
+/* line 844, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 a.deleting {
   background: #e9453c;
   padding: 5px 10px;
@@ -899,427 +755,370 @@ a.deleting {
   margin: 0 5px;
   font-size: 0.4em;
   text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
-}
+  font-family: "PT Sans", sans-serif; }
 
-/* line 860, sass/fbn.scss */
+/* line 860, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 body.forum h2.page_header .subline {
   color: #7c8186;
   font-size: 0.3em;
   font-weight: normal;
-  font-family: "PT Sans", sans-serif;
-}
-/* line 866, sass/fbn.scss */
-body.forum h2.page_header .subline .forum a {
-  font-weight: bold;
-  color: #323232;
-}
-/* line 870, sass/fbn.scss */
-body.forum h2.page_header .subline .forum a:hover {
-  color: #56b251;
-}
-/* line 877, sass/fbn.scss */
-body.forum h2.page_header .subline .header span {
-  color: #56b251;
-}
-/* line 881, sass/fbn.scss */
-body.forum h2.page_header .subline .header a {
-  font-weight: bold;
-  color: #323232;
-}
-/* line 885, sass/fbn.scss */
-body.forum h2.page_header .subline .header a:hover {
-  color: #323232 !important;
-}
-/* line 894, sass/fbn.scss */
+  font-family: "PT Sans", sans-serif; }
+  /* line 866, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  body.forum h2.page_header .subline .forum a {
+    font-weight: bold;
+    color: #323232; }
+    /* line 870, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    body.forum h2.page_header .subline .forum a:hover {
+      color: #56B251; }
+  /* line 877, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  body.forum h2.page_header .subline .header span {
+    color: #56B251; }
+  /* line 881, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  body.forum h2.page_header .subline .header a {
+    font-weight: bold;
+    color: #323232; }
+    /* line 885, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    body.forum h2.page_header .subline .header a:hover {
+      color: #323232 !important; }
+
+/* line 894, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 body.forum article.article-item #editor_lead {
   color: #7a787a;
-  margin-bottom: 25px;
-}
-/* line 899, sass/fbn.scss */
+  margin-bottom: 25px; }
+
+/* line 899, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 body.forum article.article-item h1, body.forum article.article-item h2, body.forum article.article-item h3, body.forum article.article-item h4, body.forum article.article-item h5 {
   font-family: "Chaparral", serif;
-  color: #56b251;
+  color: #56B251;
   margin: 5px 0 10px 0;
-  font-weight: initial;
-}
-/* line 908, sass/fbn.scss */
+  font-weight: initial; }
+
+/* line 908, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 body.forum article.item {
   border-bottom: 1px solid #BBBDBF;
   margin: 0 0 20px 0;
-  padding: 0 0 20px 0;
-}
-/* line 913, sass/fbn.scss */
-body.forum article.item h3 {
-  font-size: 1.6em;
-  font-weight: bold;
-  margin: 0 0 15px 0;
-}
-/* line 919, sass/fbn.scss */
-body.forum article.item .content {
-  padding-bottom: 10px;
-}
-/* line 922, sass/fbn.scss */
-body.forum article.item .content img {
-  max-width: 100%;
-  height: auto;
-  max-height: initial;
-}
-/* line 929, sass/fbn.scss */
-body.forum article.item header {
-  color: #939293;
-  font-family: "PT Sans", sans-serif;
-  margin: 0;
-  font-size: 0.7em;
-  padding: 12px 0;
-  border: 1px solid #BBBDBF;
-  border-left: none;
-  border-right: none;
-  font-weight: bold;
-  float: left;
-}
-/* line 941, sass/fbn.scss */
-body.forum article.item header span {
-  color: #56b251;
-}
-/* line 945, sass/fbn.scss */
-body.forum article.item header a {
-  color: #939293 !important;
-}
-/* line 948, sass/fbn.scss */
-body.forum article.item header a:hover {
-  color: #323232 !important;
-}
-/* line 954, sass/fbn.scss */
-body.forum article.item a.more {
-  background: #e62f25;
-  padding: 12px 20px;
-  color: white;
-  text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
-  font-size: 0.65em;
-  display: block;
-  float: right;
-}
+  padding: 0 0 20px 0; }
+  /* line 913, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  body.forum article.item h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 0 0 15px 0; }
+  /* line 919, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  body.forum article.item .content {
+    padding-bottom: 10px; }
+    /* line 922, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    body.forum article.item .content img {
+      max-width: 100%;
+      height: auto;
+      max-height: initial; }
+  /* line 929, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  body.forum article.item header {
+    color: #939293;
+    font-family: "PT Sans", sans-serif;
+    margin: 0;
+    font-size: 0.7em;
+    padding: 12px 0;
+    border: 1px solid #BBBDBF;
+    border-left: none;
+    border-right: none;
+    font-weight: bold;
+    float: left; }
+    /* line 941, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    body.forum article.item header span {
+      color: #56B251; }
+    /* line 945, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    body.forum article.item header a {
+      color: #939293 !important; }
+      /* line 948, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      body.forum article.item header a:hover {
+        color: #323232 !important; }
+  /* line 954, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  body.forum article.item a.more {
+    background: #E62F25;
+    padding: 12px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    font-size: 0.65em;
+    display: block;
+    float: right; }
 
-/* line 968, sass/fbn.scss */
+/* line 968, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 #header-container {
   background: white;
-}
-/* line 971, sass/fbn.scss */
-#header-container #logo {
-  text-align: center;
-  padding: 25px;
-}
-/* line 975, sass/fbn.scss */
-#header-container #logo h1 a {
-  display: block;
-  text-indent: -1000em;
-  width: 240px;
-  height: 60px;
-  margin: 0 auto;
-  background-image: url(/images/logo.png);
-  background-repeat: no-repeat;
-}
-/* line 985, sass/fbn.scss */
-#header-container #topmenu {
-  text-align: center;
-  border-top: 1px solid #E6E7E8;
-}
-/* line 989, sass/fbn.scss */
-#header-container #topmenu ul, #header-container #topmenu li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-/* line 994, sass/fbn.scss */
-#header-container #topmenu ul > li {
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
-  vertical-align: middle;
-  position: relative;
-}
-/* line 1001, sass/fbn.scss */
-#header-container #topmenu ul > li > a {
-  display: block;
-  padding: 20px;
-  color: #515353;
-  text-decoration: none;
-  font-size: 1.1em;
-  border-top: 3px solid transparent;
-}
-/* line 1009, sass/fbn.scss */
-#header-container #topmenu ul > li > a:hover {
-  border-top: 3px solid #56b251;
-}
-/* line 1014, sass/fbn.scss */
-#header-container #topmenu ul > li > ul {
-  position: absolute;
-  display: none;
-  background: #323232;
-  width: 250px;
-  max-width: 250px;
-}
-/* line 1020, sass/fbn.scss */
-#header-container #topmenu ul > li > ul li {
-  display: block;
-  width: 100%;
-  text-align: left;
-}
-/* line 1025, sass/fbn.scss */
-#header-container #topmenu ul > li > ul a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  font-size: 0.8em;
-  text-align: left;
-  padding: 10px;
-  line-height: 1.4;
-  border-bottom: 1px solid #6e6e6e;
-}
-/* line 1035, sass/fbn.scss */
-#header-container #topmenu ul > li > ul a:hover {
-  background: #56b251;
-}
-/* line 1041, sass/fbn.scss */
-#header-container #topmenu ul > li:hover > ul {
-  display: block;
-}
+  position: relative; }
+  /* line 972, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #header-container #logo {
+    position: relative;
+    text-align: center;
+    padding: 25px; }
+    /* line 977, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #header-container #logo h1 a {
+      display: block;
+      text-indent: -1000em;
+      width: 240px;
+      height: 60px;
+      margin: 0 auto;
+      background-image: url(/images/logo.png);
+      background-repeat: no-repeat; }
+  /* line 987, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #header-container #topmenu {
+    text-align: center;
+    border-top: 1px solid #E6E7E8; }
+    /* line 991, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #header-container #topmenu ul, #header-container #topmenu li {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+    /* line 996, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #header-container #topmenu ul > li {
+      display: inline-block;
+      *display: inline;
+      zoom: 1;
+      vertical-align: middle;
+      position: relative; }
+      /* line 1003, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      #header-container #topmenu ul > li > a {
+        display: block;
+        padding: 20px;
+        color: #515353;
+        text-decoration: none;
+        font-size: 1.1em;
+        border-top: 3px solid transparent; }
+        /* line 1011, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        #header-container #topmenu ul > li > a:hover {
+          border-top: 3px solid #56B251; }
+      /* line 1016, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      #header-container #topmenu ul > li > ul {
+        position: absolute;
+        z-index: 1000;
+        display: none;
+        background: #323232;
+        width: 250px;
+        max-width: 250px; }
+        /* line 1023, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        #header-container #topmenu ul > li > ul li {
+          display: block;
+          width: 100%;
+          text-align: left; }
+        /* line 1028, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        #header-container #topmenu ul > li > ul a {
+          display: block;
+          color: white;
+          text-decoration: none;
+          font-size: 0.8em;
+          text-align: left;
+          padding: 10px;
+          line-height: 1.4;
+          border-bottom: 1px solid #6e6e6e; }
+          /* line 1038, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          #header-container #topmenu ul > li > ul a:hover {
+            background: #56B251; }
+      /* line 1044, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      #header-container #topmenu ul > li:hover > ul {
+        display: block; }
 
-/* line 1049, sass/fbn.scss */
+/* line 1052, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 body.index #forum {
-  padding: 25px 0;
-}
-/* line 1052, sass/fbn.scss */
+  padding: 25px 0; }
+
+/* line 1055, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 body.index #news {
   background: #E6E7E8;
-  padding: 25px 0;
-}
+  padding: 25px 0; }
 
-/* line 1058, sass/fbn.scss */
+/* line 1061, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 h2.page_header {
   text-align: center;
   font-size: 2.6em;
-  color: #56b251;
-  margin: 10px 0 25px 0;
-}
+  color: #56B251;
+  margin: 10px 0 25px 0; }
 
-/* line 1065, sass/fbn.scss */
+/* line 1068, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 footer {
-  background: #323232;
-}
-/* line 1068, sass/fbn.scss */
-footer #partners {
-  padding: 25px 0;
-  text-align: center;
-}
-/* line 1072, sass/fbn.scss */
-footer #partners .logo-holder {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-/* line 1080, sass/fbn.scss */
-footer #partners .logo-holder a {
-  height: 50px;
-  line-height: 50px;
-  margin: 0 15px 15px 0;
-  background-repeat: no-repeat;
-  background-position: left top;
-}
-/* line 1088, sass/fbn.scss */
-footer #partners h3 {
-  font-size: 2.4em;
-  text-align: center;
-  margin: 0 0 20px 0;
-  color: #56b251;
-  display: block;
-  clear: both;
-}
-/* line 1099, sass/fbn.scss */
-footer #sitemap {
-  border-top: 20px solid white;
-  padding: 25px 0;
-  color: white;
-  background: #56b251;
-}
-/* line 1105, sass/fbn.scss */
-footer #sitemap a {
-  color: white;
-  text-decoration: none;
-  font-family: "PT Sans", sans-serif;
-  font-size: 0.9em;
-  line-height: 1.3;
-}
-/* line 1115, sass/fbn.scss */
-footer #sitemap > .page-width-holder {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-/* line 1120, sass/fbn.scss */
-footer #sitemap > .page-width-holder > section {
-  flex-basis: calc(100% / 3);
-}
-/* line 1126, sass/fbn.scss */
-footer #sitemap article p {
-  padding: 2px 0;
-  display: block;
-  font-family: "PT Sans", sans-serif;
-}
-/* line 1131, sass/fbn.scss */
-footer #sitemap article h3 {
-  color: #323232;
-  margin: 0 0 15px 0;
-  font-size: 1.24em;
-}
-/* line 1139, sass/fbn.scss */
-footer section.copyright {
-  text-align: center;
-  padding: 15px 0;
-  color: white;
-  font-size: 0.9em;
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
-}
+  background: #323232; }
+  /* line 1071, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  footer #partners {
+    padding: 25px 0;
+    text-align: center; }
+    /* line 1075, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    footer #partners .logo-holder {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center; }
+      /* line 1083, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      footer #partners .logo-holder a {
+        height: 50px;
+        line-height: 50px;
+        margin: 0 15px 15px 0;
+        background-repeat: no-repeat;
+        background-position: left top; }
+    /* line 1091, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    footer #partners h3 {
+      font-size: 2.4em;
+      text-align: center;
+      margin: 0 0 20px 0;
+      color: #56B251;
+      display: block;
+      clear: both; }
+  /* line 1102, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  footer #sitemap {
+    border-top: 20px solid white;
+    padding: 25px 0;
+    color: white;
+    background: #56B251; }
+    /* line 1108, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    footer #sitemap a {
+      color: white;
+      text-decoration: none;
+      font-family: "PT Sans", sans-serif;
+      font-size: 0.9em;
+      line-height: 1.3; }
+    /* line 1118, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    footer #sitemap > .page-width-holder {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      /* line 1123, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      footer #sitemap > .page-width-holder > section {
+        flex-basis: calc(100% / 3); }
+    /* line 1129, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    footer #sitemap article p {
+      padding: 2px 0;
+      display: block;
+      font-family: "PT Sans", sans-serif; }
+    /* line 1134, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    footer #sitemap article h3 {
+      color: #323232;
+      margin: 0 0 15px 0;
+      font-size: 1.24em; }
+  /* line 1142, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  footer section.copyright {
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+    font-size: 0.9em;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold; }
 
-/* line 1149, sass/fbn.scss */
+/* line 1152, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .clearer {
-  clear: both;
-}
+  clear: both; }
 
-/* line 1154, sass/fbn.scss */
+/* line 1157, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .section-holder.flex-grid {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -10px;
-}
-/* line 1161, sass/fbn.scss */
-.section-holder.flex-grid article {
-  font-size: 0.85em;
-  flex-basis: 100%;
-  padding: 10px;
-  color: #939293;
-}
-/* line 1167, sass/fbn.scss */
-.section-holder.flex-grid article .iwrapper {
-  padding: 20px;
-}
-/* line 1170, sass/fbn.scss */
-.section-holder.flex-grid article .iwrapper header {
-  font-family: "PT Sans", sans-serif;
-  margin: 15px 0;
-  font-size: 0.82em;
-  padding: 5px 0;
-  border: 1px solid #BBBDBF;
-  border-left: none;
-  border-right: none;
-  font-weight: bold;
-}
-/* line 1180, sass/fbn.scss */
-.section-holder.flex-grid article .iwrapper header span {
-  color: #56b251;
-}
-/* line 1184, sass/fbn.scss */
-.section-holder.flex-grid article .iwrapper header a {
-  color: #939293;
-}
-/* line 1187, sass/fbn.scss */
-.section-holder.flex-grid article .iwrapper header a:hover {
-  color: black;
-}
-/* line 1193, sass/fbn.scss */
-.section-holder.flex-grid article .iwrapper h3 {
-  margin: 0 0 20px 0;
-  font-size: 1.5em;
-  line-height: 1.1;
-  font-weight: normal;
-}
-/* line 1200, sass/fbn.scss */
-.section-holder.flex-grid article .iwrapper .more {
-  text-align: right;
-}
-/* line 1203, sass/fbn.scss */
-.section-holder.flex-grid article .iwrapper .more a {
-  background: #e62f25;
-  padding: 8px 10px;
-  color: white;
-  text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
-  font-size: 0.8em;
-  display: block;
-  float: right;
-}
-/* line 1218, sass/fbn.scss */
-.section-holder.flex-grid.grid-x3 > article {
-  flex-basis: calc(100%/3);
-}
-/* line 1221, sass/fbn.scss */
-.section-holder.flex-grid.grid-x5 > article {
-  flex-basis: calc(100%/5);
-}
-/* line 1228, sass/fbn.scss */
-.section-holder.post-list-default article .iwrapper {
-  background: white;
-}
-/* line 1235, sass/fbn.scss */
-.section-holder.forum-home-view article {
-  padding: 20px;
-}
-/* line 1238, sass/fbn.scss */
-.section-holder.forum-home-view article h3 {
-  height: 55px;
-  max-height: 55px;
-  margin: 0 0 10px 0;
-}
-/* line 1241, sass/fbn.scss */
-.section-holder.forum-home-view article h3 a {
-  color: black;
-  font-size: 1.3em;
-}
-/* line 1245, sass/fbn.scss */
-.section-holder.forum-home-view article h3 a:hover {
-  color: #56b251;
-}
-/* line 1253, sass/fbn.scss */
-.section-holder.forum-home-view article a.more {
-  margin: 15px 0 0 0;
-  background: #56b251;
-  padding: 8px 10px;
-  color: white;
-  text-transform: uppercase;
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
-  font-size: 0.8em;
-  display: block;
-  float: left;
-}
-/* line 1265, sass/fbn.scss */
-.section-holder.forum-home-view article a.more:hover {
-  background: #323232;
-}
+  margin: 0 -10px; }
+  /* line 1164, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .section-holder.flex-grid article {
+    font-size: 0.85em;
+    flex-basis: 100%;
+    padding: 10px;
+    color: #939293; }
+    /* line 1170, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .section-holder.flex-grid article .iwrapper {
+      padding: 20px; }
+      /* line 1173, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      .section-holder.flex-grid article .iwrapper header {
+        font-family: "PT Sans", sans-serif;
+        margin: 15px 0;
+        font-size: 0.82em;
+        padding: 5px 0;
+        border: 1px solid #BBBDBF;
+        border-left: none;
+        border-right: none;
+        font-weight: bold; }
+        /* line 1183, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        .section-holder.flex-grid article .iwrapper header span {
+          color: #56B251; }
+        /* line 1187, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        .section-holder.flex-grid article .iwrapper header a {
+          color: #939293; }
+          /* line 1190, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+          .section-holder.flex-grid article .iwrapper header a:hover {
+            color: black; }
+      /* line 1196, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      .section-holder.flex-grid article .iwrapper h3 {
+        margin: 0 0 20px 0;
+        font-size: 1.5em;
+        line-height: 1.1;
+        font-weight: normal; }
+      /* line 1203, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      .section-holder.flex-grid article .iwrapper .more {
+        text-align: right; }
+        /* line 1206, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        .section-holder.flex-grid article .iwrapper .more a {
+          background: #E62F25;
+          padding: 8px 10px;
+          color: white;
+          text-transform: uppercase;
+          font-family: "PT Sans", sans-serif;
+          font-weight: bold;
+          font-size: 0.8em;
+          display: block;
+          float: right; }
+  /* line 1221, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .section-holder.flex-grid.grid-x3 > article {
+    flex-basis: calc(100%/3); }
+  /* line 1224, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .section-holder.flex-grid.grid-x5 > article {
+    flex-basis: calc(100%/5); }
 
-/* line 1275, sass/fbn.scss */
+/* line 1231, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+.section-holder.post-list-default article .iwrapper {
+  background: white; }
+
+/* line 1238, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+.section-holder.forum-home-view article {
+  padding: 20px; }
+  /* line 1241, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .section-holder.forum-home-view article h3 {
+    height: 55px;
+    max-height: 55px;
+    margin: 0 0 10px 0; }
+    /* line 1244, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .section-holder.forum-home-view article h3 a {
+      color: black;
+      font-size: 1.3em; }
+      /* line 1248, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      .section-holder.forum-home-view article h3 a:hover {
+        color: #56B251; }
+  /* line 1256, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  .section-holder.forum-home-view article a.more {
+    margin: 15px 0 0 0;
+    background: #56B251;
+    padding: 8px 10px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    display: block;
+    float: left; }
+    /* line 1268, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    .section-holder.forum-home-view article a.more:hover {
+      background: #323232; }
+
+/* line 1278, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 #nav-buttons .holder ul, #nav-buttons .holder li {
   list-style: none;
   margin: 0;
-  padding: 0;
-}
-/* line 1281, sass/fbn.scss */
+  padding: 0; }
+
+/* line 1284, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 #nav-buttons .holder ul {
   display: table;
   position: relative;
-  margin: 0 -10px;
-}
-/* line 1286, sass/fbn.scss */
+  margin: 0 -10px; }
+
+/* line 1289, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 #nav-buttons .holder li {
   display: table-cell;
   position: relative;
@@ -1327,125 +1126,106 @@ footer section.copyright {
   height: 115px;
   width: calc(100%/3);
   float: left;
-  vertical-align: middle;
-}
-/* line 1296, sass/fbn.scss */
-#nav-buttons .holder li a {
-  display: table;
-  width: 100%;
-  height: 100%;
-  font-size: 1.55em;
-  padding: 0 25px;
-  text-align: center;
-  background: #56b251;
-  color: white;
-  line-height: 1.3;
-}
-/* line 1307, sass/fbn.scss */
-#nav-buttons .holder li a > div {
-  display: table-cell;
-  vertical-align: middle;
-}
-/* line 1312, sass/fbn.scss */
-#nav-buttons .holder li a:hover {
-  background: #323232;
-}
+  vertical-align: middle; }
+  /* line 1299, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #nav-buttons .holder li a {
+    display: table;
+    width: 100%;
+    height: 100%;
+    font-size: 1.55em;
+    padding: 0 25px;
+    text-align: center;
+    background: #56B251;
+    color: white;
+    line-height: 1.3; }
+    /* line 1310, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #nav-buttons .holder li a > div {
+      display: table-cell;
+      vertical-align: middle; }
+    /* line 1315, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #nav-buttons .holder li a:hover {
+      background: #323232; }
 
-/* line 1320, sass/fbn.scss */
+/* line 1323, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 img {
   position: relative;
   max-width: 100%;
   border: none;
   height: auto !important;
-  max-height: initial !important;
-}
+  max-height: initial !important; }
 
-/* line 1330, sass/fbn.scss */
+/* line 1333, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 #share .buttons .button {
   display: inline-block;
   *display: inline;
   zoom: 1;
   padding: 10px;
-  vertical-align: top;
-}
-/* line 1337, sass/fbn.scss */
-#share .buttons .button.googleplus {
-  max-width: 62px;
-  overflow: hidden;
-}
+  vertical-align: top; }
+  /* line 1340, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #share .buttons .button.googleplus {
+    max-width: 62px;
+    overflow: hidden; }
 
-/* line 1345, sass/fbn.scss */
+/* line 1348, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 #comments-container {
-  margin-top: 20px;
-}
-/* line 1347, sass/fbn.scss */
-#comments-container h3.header {
-  font-family: "PT Sans", sans-serif;
-  color: #323232;
-  text-transform: uppercase;
-  font-size: 1.8em;
-}
-/* line 1354, sass/fbn.scss */
-#comments-container form .form-row {
-  margin-bottom: 8px;
-}
-/* line 1357, sass/fbn.scss */
-#comments-container form .form-row textarea {
-  width: 100%;
-  background: #f2f2f2;
-  border: 1px solid #e1e1e1;
-  padding: 15px;
-}
-/* line 1366, sass/fbn.scss */
-#comments-container .article-comment {
-  border-left: 5px solid #e6e7e8;
-  padding-left: 15px;
-  margin-bottom: 8px;
-}
-/* line 1371, sass/fbn.scss */
-#comments-container .article-comment h3 {
-  margin: 0 0 4px 0;
-}
-/* line 1373, sass/fbn.scss */
-#comments-container .article-comment h3 a {
-  color: #323232;
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
-}
-/* line 1378, sass/fbn.scss */
-#comments-container .article-comment h3 a:hover {
-  color: #56b251;
-}
-/* line 1384, sass/fbn.scss */
-#comments-container .article-comment header {
-  font-size: 0.8em;
-  margin-bottom: 10px;
-  font-family: "PT Sans", sans-serif;
-}
-/* line 1389, sass/fbn.scss */
-#comments-container .article-comment .comment-content {
-  font-size: 1.2em;
-  color: #4d4d4d;
-  line-height: 1.2;
-}
+  margin-top: 20px; }
+  /* line 1350, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #comments-container h3.header {
+    font-family: "PT Sans", sans-serif;
+    color: #323232;
+    text-transform: uppercase;
+    font-size: 1.8em; }
+  /* line 1357, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #comments-container form .form-row {
+    margin-bottom: 8px; }
+    /* line 1360, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #comments-container form .form-row textarea {
+      width: 100%;
+      background: #f2f2f2;
+      border: 1px solid #e1e1e1;
+      padding: 15px; }
+  /* line 1369, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #comments-container .article-comment {
+    border-left: 5px solid #E6E7E8;
+    padding-left: 15px;
+    margin-bottom: 8px; }
+    /* line 1374, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #comments-container .article-comment h3 {
+      margin: 0 0 4px 0; }
+      /* line 1376, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      #comments-container .article-comment h3 a {
+        color: #323232;
+        font-family: "PT Sans", sans-serif;
+        font-weight: bold; }
+        /* line 1381, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        #comments-container .article-comment h3 a:hover {
+          color: #56B251; }
+    /* line 1387, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #comments-container .article-comment header {
+      font-size: 0.8em;
+      margin-bottom: 10px;
+      font-family: "PT Sans", sans-serif; }
+    /* line 1392, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #comments-container .article-comment .comment-content {
+      font-size: 1.2em;
+      color: #4d4d4d;
+      line-height: 1.2; }
 
-/* line 1397, sass/fbn.scss */
+/* line 1400, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 button[type=submit] {
-  background: #56b251;
+  background: #56B251;
   padding: 10px 20px;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
   margin: 5px 0;
   border: none;
-  cursor: pointer;
-}
-/* line 1407, sass/fbn.scss */
-button[type=submit]:hover {
-  background: #323232;
-}
+  cursor: pointer; }
+  /* line 1410, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  button[type=submit]:hover {
+    background: #323232; }
 
-/* line 1412, sass/fbn.scss */
+/* line 1415, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 #tooltip {
   position: absolute;
   display: none;
@@ -1456,25 +1236,22 @@ button[type=submit]:hover {
   border: 1px solid #d1d1d1;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
-  border-radius: 8px;
-}
+  border-radius: 8px; }
 
-/* line 1429, sass/fbn.scss */
+/* line 1432, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .pager tr td a {
   background: #b1b4b7;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
-  border-radius: 2px;
-}
+  border-radius: 2px; }
 
-/* line 1435, sass/fbn.scss */
+/* line 1438, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 .pager tr td a:hover, .pager tr td a.current {
-  background: #56b251;
+  background: #56B251;
   color: white;
-  border-color: #449040;
-}
+  border-color: #449040; }
 
-/* line 1441, sass/fbn.scss */
+/* line 1444, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
 #slideshow-container {
   position: relative;
   display: block;
@@ -1483,104 +1260,248 @@ button[type=submit]:hover {
   max-height: 450px;
   overflow: hidden;
   background: #449040;
-  border-bottom: 20px solid #3c7f38;
-}
-/* line 1451, sass/fbn.scss */
-#slideshow-container #slideshow-items {
-  position: relative;
-  height: 100%;
-  max-height: 100%;
-  overflow: hidden;
-}
-/* line 1456, sass/fbn.scss */
-#slideshow-container #slideshow-items .slideshow-item {
-  position: absolute;
-  display: inline-block;
-  *display: inline;
-  zoom: 1;
-  float: left;
-  height: 100%;
-  width: 100%;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* line 1468, sass/fbn.scss */
-#slideshow-container #slideshow-items .slideshow-item > div {
-  width: 1200px;
-  margin: 0 auto;
-  color: white;
-  padding: 5%;
-  text-align: center;
-}
-/* line 1475, sass/fbn.scss */
-#slideshow-container #slideshow-items .slideshow-item > div h2 {
-  text-align: center;
-  font-size: 3em;
-  font-weight: normal;
-  margin-bottom: 20px;
-}
-/* line 1482, sass/fbn.scss */
-#slideshow-container #slideshow-items .slideshow-item > div p {
-  font-size: 1.2em;
-}
-/* line 1490, sass/fbn.scss */
-#slideshow-container #slideshow-left,
-#slideshow-container #slideshow-right {
-  position: absolute;
-  z-index: 1000;
-  height: 100%;
-  width: 50px;
-  text-align: center;
-}
-/* line 1497, sass/fbn.scss */
-#slideshow-container #slideshow-left a,
-#slideshow-container #slideshow-right a {
-  position: relative;
-  background: rgba(255, 255, 255, 0);
-  display: block;
-  height: 100%;
-  opacity: 0.3;
-  filter: alpha(opacity=30);
-  text-indent: -1000em;
-}
-/* line 1506, sass/fbn.scss */
-#slideshow-container #slideshow-left a:before,
-#slideshow-container #slideshow-right a:before {
-  position: absolute;
-  content: "";
-  background-image: url("/images/slide-arrows.png");
-  background-repeat: no-repeat;
-  width: 25px;
-  height: 32px;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-/* line 1521, sass/fbn.scss */
-#slideshow-container #slideshow-left:hover a,
-#slideshow-container #slideshow-right:hover a {
-  background: rgba(255, 255, 255, 0.21);
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-/* line 1527, sass/fbn.scss */
-#slideshow-container #slideshow-left {
-  left: 0;
-  top: 0;
-}
-/* line 1531, sass/fbn.scss */
-#slideshow-container #slideshow-left a:before {
-  background-position: 0 0;
-}
-/* line 1535, sass/fbn.scss */
-#slideshow-container #slideshow-right {
-  right: 0;
-  top: 0;
-}
-/* line 1539, sass/fbn.scss */
-#slideshow-container #slideshow-right a:before {
-  background-position: -25px 0;
-}
+  border-bottom: 20px solid #3c7f38; }
+  /* line 1454, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #slideshow-container #slideshow-items {
+    position: relative;
+    height: 100%;
+    max-height: 100%;
+    overflow: hidden; }
+    /* line 1459, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #slideshow-container #slideshow-items .slideshow-item {
+      position: absolute;
+      display: inline-block;
+      *display: inline;
+      zoom: 1;
+      float: left;
+      height: 100%;
+      width: 100%;
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      /* line 1471, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      #slideshow-container #slideshow-items .slideshow-item > div {
+        width: 1200px;
+        margin: 0 auto;
+        color: white;
+        padding: 5%;
+        text-align: center; }
+        /* line 1478, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        #slideshow-container #slideshow-items .slideshow-item > div h2 {
+          text-align: center;
+          font-size: 3em;
+          font-weight: normal;
+          margin-bottom: 20px; }
+        /* line 1485, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+        #slideshow-container #slideshow-items .slideshow-item > div p {
+          font-size: 1.2em; }
+  /* line 1492, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #slideshow-container #slideshow-left,
+  #slideshow-container #slideshow-right {
+    position: absolute;
+    z-index: 1000;
+    height: 100%;
+    width: 50px;
+    text-align: center; }
+    /* line 1500, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #slideshow-container #slideshow-left a,
+    #slideshow-container #slideshow-right a {
+      position: relative;
+      background: rgba(255, 255, 255, 0);
+      display: block;
+      height: 100%;
+      opacity: 0.3;
+      filter: alpha(opacity=30);
+      text-indent: -1000em; }
+      /* line 1509, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+      #slideshow-container #slideshow-left a:before,
+      #slideshow-container #slideshow-right a:before {
+        position: absolute;
+        content: "";
+        background-image: url("/images/slide-arrows.png");
+        background-repeat: no-repeat;
+        width: 25px;
+        height: 32px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
+    /* line 1524, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #slideshow-container #slideshow-left:hover a,
+    #slideshow-container #slideshow-right:hover a {
+      background: rgba(255, 255, 255, 0.21);
+      opacity: 1;
+      filter: alpha(opacity=100); }
+  /* line 1530, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #slideshow-container #slideshow-left {
+    left: 0;
+    top: 0; }
+    /* line 1534, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #slideshow-container #slideshow-left a:before {
+      background-position: 0 0; }
+  /* line 1538, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+  #slideshow-container #slideshow-right {
+    right: 0;
+    top: 0; }
+    /* line 1542, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+    #slideshow-container #slideshow-right a:before {
+      background-position: -25px 0; }
+
+/* line 1548, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/fbn.scss */
+.show-on-mobile {
+  display: none; }
+
+@media all and (max-width: 1200px) {
+  /* line 2, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  .page-width-holder,
+  #slideshow-container #slideshow-items .slideshow-item > div {
+    width: 970px;
+    max-width: 970px; }
+  /* line 7, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #szalag .holder {
+    font-size: 2.4em; }
+  /* line 10, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #szalag .holder:before,
+  #szalag .holder:after {
+    font-size: 200px; }
+  /* line 14, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #szalag .holder:after {
+    top: -135px; }
+  /* line 18, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  .content-holder section#forum-right h2.page_header, .content-holder section.list-right h2.page_header {
+    font-size: 1.6em; }
+  /* line 21, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  .content-holder section#forum-right > section article h3 a, .content-holder section.list-right > section article h3 a {
+    font-size: 1em; } }
+
+@media all and (max-width: 970px) {
+  /* line 28, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  .page-width-holder,
+  #slideshow-container #slideshow-items .slideshow-item > div {
+    width: 100%;
+    max-width: 100%; } }
+
+@media all and (max-width: 768px) {
+  /* line 37, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  .show-on-mobile {
+    display: block; }
+  /* line 40, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  .content-holder {
+    display: block; }
+  /* line 43, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  footer #sitemap > .page-width-holder {
+    flex-wrap: wrap; }
+  /* line 46, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  footer #sitemap > .page-width-holder > section {
+    text-align: center; }
+  /* line 49, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  .content-holder section#forum-left, .content-holder section.list-left,
+  .content-holder section#forum-right, .content-holder section.list-right,
+  footer #sitemap > .page-width-holder > section {
+    flex-basis: 100%; }
+  /* line 54, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  .content-holder section#forum-left, .content-holder section.list-left {
+    padding: 0 25px 25px 25px; }
+  /* line 57, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  .content-holder section#forum-right h2.page_header, .content-holder section.list-right h2.page_header {
+    margin: 0px -15px 10px -15px; }
+  /* line 60, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  footer #sitemap article h3 {
+    margin: 20px 0 10px 0; }
+  /* line 63, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #header-container #topmenu ul > li {
+    display: block;
+    width: 100%;
+    float: none;
+    text-align: left;
+    border-bottom: 1px solid #E6E7E8; }
+    /* line 70, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+    #header-container #topmenu ul > li a {
+      text-align: left; }
+  /* line 74, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #header-container #topmenu ul > li > ul {
+    position: relative;
+    width: 100%;
+    max-width: initial; }
+  /* line 79, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #header-container #topmenu ul {
+    display: none; }
+  /* line 82, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #header-container #topmenu ul.opened {
+    display: block; }
+  /* line 85, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #nav-buttons .holder li {
+    width: calc(100%/2); }
+  /* line 88, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  .section-holder.flex-grid.grid-x5 > article {
+    flex-basis: calc(100%/2); }
+  /* line 91, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  .section-holder.flex-grid.grid-x3 > article {
+    flex-basis: calc(100%/2); }
+  /* line 94, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #szalag .holder .subtitle {
+    padding-left: 60px; }
+  /* line 97, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #menutoggler {
+    font-size: 45px;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 1;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    color: #cbced0;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    transform: translate(0, -50%); }
+    /* line 110, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+    #menutoggler:active, #menutoggler i:active {
+      color: #4ca248; } }
+
+@media all and (max-width: 600px) {
+  /* line 117, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #login-container.logged > #login-box {
+    text-align: center; }
+  /* line 120, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #login-container.logged > #login-box #logged-name, #login-container.logged > #login-box nav#user_menu {
+    display: block;
+    text-align: center;
+    float: none; }
+  /* line 125, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #login-container.logged > #login-box #logged-name {
+    padding: 10px; }
+  /* line 128, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #login-container.logged > #login-box nav#user_menu ul {
+    margin: 0 auto; }
+  /* line 131, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #login-container #login-box label, #login-container #login-box input, #login-container #login-box button {
+    display: block;
+    width: 100%;
+    text-align: center; }
+  /* line 136, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #login-container #login-box label:not(.label-input) {
+    display: none; }
+  /* line 139, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #mobile-close-login {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 28px;
+    z-index: 100; }
+  /* line 146, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #login-container #login-box {
+    display: none; }
+  /* line 149, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #login-container #login-box.opened {
+    display: block; }
+  /* line 152, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #loginbox-toggler {
+    text-align: right;
+    font-family: "PT Sans", sans-serif;
+    font-size: 0.8em; }
+  /* line 157, /Users/MolnarIstvan/Documents/Munka/Idea Fontana Kft/Git/fbnhhu/css/sass/_responsive.scss */
+  #loginbox-toggler.hide {
+    display: none; } }
+
+/*# sourceMappingURL=../fbn.map */

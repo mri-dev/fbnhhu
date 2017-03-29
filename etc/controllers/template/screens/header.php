@@ -5,6 +5,8 @@
 	 '<title>' . title() . '</title>',
 
 	 '<meta charset="UTF-8">',
+   '<meta name="viewport" content="width=device-width, initial-scale=1">',
+   '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">',
 	 '<link rel="shortcut icon" type="image/png" href="/favicon.png" />',
 
 	 '<link rel="stylesheet" href="/css/' . implode('.css" media="screen" /><link rel="stylesheet" href="/css/', css()) . '.css?t='.microtime().'" />',
@@ -52,44 +54,50 @@ window._fbq.push([\'track\', \'PixelInitialized\', {}]);
 
     if ( $this->sm->is_logged() )
     {
-	echo '<div id="logged-name">Üdvözöllek <span class="bold">' . $this->sm->user->name . '</span>!<br /><a href="/admin/users/profil">Profil</a><a href="/index/logout">Kilépés</a></div>';
+    	echo '<div id="logged-name">Üdvözöllek <span class="bold">' . $this->sm->user->name . '</span>!<br /><a href="/admin/users/profil">Profil</a><a href="/index/logout">Kilépés</a></div>';
 
-        if ( $this->MENU_ITEMS )
-        {
-            echo '<nav id="user_menu">',
-                 '<ul>';
-
-            foreach ( $this->MENU_ITEMS as $item )
+            if ( $this->MENU_ITEMS )
             {
-                echo '<li class="' . urlfriendly($item['link']) . '"><a href="/admin/' . $item['link'] . '" title="' . $item['name'] . '"' . ($item['module_name'] == $_REQUEST['_CONTROLLER'] ? ' class="selected"' : '') . '>' . $item['name'] . '</a></li>';
-            }
+                echo '<nav id="user_menu">',
+                     '<ul>';
 
-            echo '</ul>',
-                 '</nav>';
-	}
+                foreach ( $this->MENU_ITEMS as $item )
+                {
+                    echo '<li class="' . urlfriendly($item['link']) . '"><a href="/admin/' . $item['link'] . '" title="' . $item['name'] . '"' . ($item['module_name'] == $_REQUEST['_CONTROLLER'] ? ' class="selected"' : '') . '>' . $item['name'] . '</a></li>';
+                }
+
+                echo '</ul>',
+                     '</nav>';
+    	}
     }
     else
     {
-        $this->form->nodiv	= true;
-        $this->form->dl		= false;
-        $this->form->sh_errors	= false;
+      echo '<div id="mobile-close-login" class="show-on-mobile"><i class="fa fa-times"></i></div>';
 
-	if ( isset($_REQUEST['lusername']) && isset($_REQUEST['lpassword']) )
-	{
-	    echo '<div id="login-error"><a href="/content/sugo">Elakadt? Segítségért ide klikkelhet!</a></div>';
-	}
+      $this->form->nodiv	= true;
+      $this->form->dl		= false;
+      $this->form->sh_errors	= false;
 
+    	if ( isset($_REQUEST['lusername']) && isset($_REQUEST['lpassword']) )
+    	{
+    	    echo '<div id="login-error"><a href="/content/sugo">Elakadt? Segítségért ide klikkelhet!</a></div>';
+    	}
         $this->form->open();
         $this->form->input_text('Felhasználónév', 'lusername');
         $this->form->input_password('Jelszó', 'lpassword');
         $this->form->close('BELÉPÉS');
     }
 
-    echo '</div>', # login-box
-	 '</div>', # login-container
+    echo '</div>'; # login-box
+    if ( !$this->sm->is_logged() ){
+      echo '<div class="show-on-mobile" id="loginbox-toggler">Belépés <i class="fa fa-user"></i></div>';
+    }
+	 echo '</div>', # login-container
 
 	 '<div id="header-container" class="">',
-	 '<div id="logo"><h1><a href="/">FBN-H</a></h1></div>',
+	 '<div id="logo">',
+   '<div class="show-on-mobile" id="menutoggler" data-status="0"><i class="fa fa-bars"></i></div>',
+   '<h1><a href="/">FBN-H</a></h1></div>',
 
 	 '<nav id="topmenu"><div class="page-width-holder">',
 	 '<ul>';
