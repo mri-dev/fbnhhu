@@ -39,9 +39,14 @@
   }
   .content-holder{
     display: block;
+    margin: 0;
+    padding-bottom: 10px;
   }
   footer #sitemap > .page-width-holder{
     flex-wrap: wrap;
+  }
+  footer #sitemap{
+    padding: 0 10px 25px 10px;
   }
   footer #sitemap > .page-width-holder > section{
     text-align: center;
@@ -52,7 +57,7 @@
     flex-basis: 100%;
   }
   .content-holder section#forum-left, .content-holder section.list-left {
-    padding: 0 25px 25px 25px;
+    padding: 5px 10px;
   }
   .content-holder section#forum-right h2.page_header, .content-holder section.list-right h2.page_header{
     margin: 0px -15px 10px -15px;
@@ -111,6 +116,36 @@
       color: darken($color-green, 5%);
     }
   }
+  footer #partners .logo-holder a{
+    margin: 0;
+  }
+  body.forum article.item header{
+    float: none;
+  }
+  body.forum article.item header{
+    margin: 10px 0;
+  }
+  body.forum article.item{
+    border-bottom: 3px solid #BBBDBF;
+  }
+
+  .pager tr td a{
+    float: left;
+    width: 25%;
+    margin: 0;
+  }
+  .pager td{
+    vertical-align: top;
+    text-align: center;
+  }
+  .pager tr td:first-child a,
+  .pager tr td:last-child a{
+    float: left;
+    width: 100%;
+  }
+  .content-holder section#forum-right .forum-lead, .content-holder section.list-right .forum-lead{
+    padding-bottom: 20px;
+  }
 }
 // Felső admin menü összecsúszás brakepoint
 @media all and (max-width: 600px){
@@ -156,5 +191,65 @@
   }
   #loginbox-toggler.hide{
     display: none;
+  }
+  .section-holder.forum-home-view article h3{
+    height: auto;
+    max-height: initial;
+    overflow: inherit;
+    font-size: 2em;
+    line-height: 1.2;
+  }
+  .section-holder.flex-grid article{
+    font-size: 0.9em;
+  }
+}
+
+@media all and (max-width: 540px){
+  .section-holder.flex-grid article img {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  #nav-buttons{
+    margin: 0;
+    padding: 0;
+  }
+  #nav-buttons .holder ul{
+    margin: 0;
+  }
+  #nav-buttons .holder li{
+    width: 100%;
+    padding: 5px 0;
+  }
+  #szalag .holder{
+      font-size: 1.2em;
+  }
+  #szalag .holder:before, #szalag .holder:after {
+    font-size: 100px;
+    letter-spacing: -6px;
+  }
+  #szalag .holder:after{
+    top: -66px;
+    right: 10px;
+  }
+  .section-holder.flex-grid{
+    margin: 0;
+  }
+  .section-holder.flex-grid.grid-x5 > article,
+  .section-holder.flex-grid.grid-x3 > article{
+    flex-basis: 100%;
+  }
+  .section-holder.flex-grid.grid-x3 > article{
+    padding: 5px 10px;
+    overflow: hidden;
+  }
+  .section-holder.flex-grid article .iwrapper h3{
+    font-size: 2.3em;
+  }
+  .section-holder.forum-home-view article{
+    padding: 10px;
+  }
+  #slideshow-container{
+    height: 320px;
+    max-height: 320px;
   }
 }
