@@ -2,8 +2,7 @@
     $this->header(format_date($this->DATE), null);
 
     echo '<div class="content-page">';
-    echo '<div class="dotted-header-bottom"></div>',
-         '<div class="eventlist">';
+    echo '<div class="eventlist">';
 
     if ( $this->EVENTS[$this->DATE] )
     {

@@ -6,20 +6,30 @@
      */
     if ( ($_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest' || in_array($_REQUEST['_CONTROLLER'], array()) || $_REQUEST['xhr'] == 1) && is_object($_CONTENT) && method_exists($_CONTENT, 'display') )
     {
-      echo '<div class="page-width-holder"><div class="content-holder">';
-	    $_CONTENT->display();
-      echo '</div></div>';
+      switch($_REQUEST['_CONTROLLER'])
+      {
+        case 'calendar':
+          $_CONTENT->display();
+        break;
+
+        default:
+          echo '<div class="page-width-holder"><div class="content-holder">';
+    	    $_CONTENT->display();
+          echo '</div></div>';
+        break;
+      }
+
     }
     else
     {
-	$_TEMPLATE->open();
+    	$_TEMPLATE->open();
 
-	if ( is_object($_CONTENT) && method_exists($_CONTENT, 'display') )
-	{
-      echo '<div class="page-width-holder"><div class="content-holder">';
-	    $_CONTENT->display();
-      echo '</div></div>';
-	}
+    	if ( is_object($_CONTENT) && method_exists($_CONTENT, 'display') )
+    	{
+          echo '<div class="page-width-holder"><div class="content-holder">';
+    	    $_CONTENT->display();
+          echo '</div></div>';
+    	}
 
-	$_TEMPLATE->close();
+    	$_TEMPLATE->close();
     }
