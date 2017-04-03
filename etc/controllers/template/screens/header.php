@@ -165,16 +165,19 @@ window._fbq.push([\'track\', \'PixelInitialized\', {}]);
     echo '</ul>',
 	 '</div></nav>',
 
-	 '</div>', # header-container
+	 '</div>'; # header-container
+   if(defined('ISHOME') && ISHOME === true):
+     echo
+  	 '<div id="slideshow-container">',
+  	     '<div id="slideshow-left"><a href="#">&lt;</a></div>',
 
-	 '<div id="slideshow-container">',
-	     '<div id="slideshow-left"><a href="#">&lt;</a></div>',
+  	     '<div id="slideshow-items">' . file_get_contents(dirname(__FILE__) . '/../../../../other/slideshow/slideshow.html') . '</div>',
 
-	     '<div id="slideshow-items">' . file_get_contents(dirname(__FILE__) . '/../../../../other/slideshow/slideshow.html') . '</div>',
+  	     '<div id="slideshow-right"><a href="#">&gt;</a></div>',
+  	 '</div>';
+    endif;
 
-	     '<div id="slideshow-right"><a href="#">&gt;</a></div>',
-	 '</div>',
-
+   echo
 	 '</header>',
 
 	 '<div id="container">';

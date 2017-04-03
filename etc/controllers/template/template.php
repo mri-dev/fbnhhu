@@ -18,42 +18,42 @@ class template_controller {
     	$this->grouplist = new grouplist();
     	$this->groups	 = $this->grouplist->get_tree(1, false, $this->scr->sm->is_logged());
 
-    	$this->scr->register_var('GROUPS', $this->groups); 
+    	$this->scr->register_var('GROUPS', $this->groups);
     }
 
     function open ()
     {
-	global $_CONTENT;
+    	global $_CONTENT;
 
-        $this->scr->register_var('CONTENT', $_CONTENT);
-        $this->scr->register_var('MENU_ITEMS', admin_links($this->scr->sm->user));
+            $this->scr->register_var('CONTENT', $_CONTENT);
+            $this->scr->register_var('MENU_ITEMS', admin_links($this->scr->sm->user));
 
-    	$this->scr->set_screen('HEADER');
+        	$this->scr->set_screen('HEADER');
 
-	if ( $this->scr->sm->is_logged() )
-	{
-	    $this->scr->set_screen('LOGGED_HEADER');
-	}
+    	if ( $this->scr->sm->is_logged() )
+    	{
+    	    $this->scr->set_screen('LOGGED_HEADER');
+    	}
     }
 
     function close ()
     {
-	$this->scr->register_var('MEMBERS', get_config('MEMBERS::IMAGES'));
-	$this->scr->register_var('MEMBERS_IMAGEDIR', get_config('MEMBERS::IMAGEDIR'));
-	$this->scr->register_var('MEMBERS_IMAGEURL', get_config('MEMBERS::IMAGEURL'));
+    	$this->scr->register_var('MEMBERS', get_config('MEMBERS::IMAGES'));
+    	$this->scr->register_var('MEMBERS_IMAGEDIR', get_config('MEMBERS::IMAGEDIR'));
+    	$this->scr->register_var('MEMBERS_IMAGEURL', get_config('MEMBERS::IMAGEURL'));
 
-	$this->scr->register_var('PARTNERS', get_config('PARTNERS::IMAGES'));
-	$this->scr->register_var('PARTNERS_IMAGEDIR', get_config('PARTNERS::IMAGEDIR'));
-	$this->scr->register_var('PARTNERS_IMAGEURL', get_config('PARTNERS::IMAGEURL'));
+    	$this->scr->register_var('PARTNERS', get_config('PARTNERS::IMAGES'));
+    	$this->scr->register_var('PARTNERS_IMAGEDIR', get_config('PARTNERS::IMAGEDIR'));
+    	$this->scr->register_var('PARTNERS_IMAGEURL', get_config('PARTNERS::IMAGEURL'));
 
-	$this->scr->register_var('GROUPS_ABOUT', $this->grouplist->get_tree(15));
-	$this->scr->register_var('GROUPS_FORUMS', $this->grouplist->get_tree(17));
+    	$this->scr->register_var('GROUPS_ABOUT', $this->grouplist->get_tree(15));
+    	$this->scr->register_var('GROUPS_FORUMS', $this->grouplist->get_tree(17));
 
-	if ( $this->scr->sm->is_logged() )
-	{
-	    $this->scr->set_screen('LOGGED_FOOTER');
-	}
+    	if ( $this->scr->sm->is_logged() )
+    	{
+    	    $this->scr->set_screen('LOGGED_FOOTER');
+    	}
 
-	$this->scr->set_screen('FOOTER');
+    	$this->scr->set_screen('FOOTER');
     }
 }

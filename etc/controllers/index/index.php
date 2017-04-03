@@ -7,17 +7,19 @@ class index_controller {
 
     function __construct ()
     {
-	$this->scr	= new screen(__FILE__);
+      	$this->scr	= new screen(__FILE__);
 
-	$this->forumlist = new forumlist();
-	$this->articlelist = new articlelist();
-  $this->grouplist = new grouplist();
+      	$this->forumlist = new forumlist();
+      	$this->articlelist = new articlelist();
+        $this->grouplist = new grouplist();
 
         $this->comment_types    = get_config('ARTICLES::COMMENT_TYPES');
         $this->visibility       = get_config('ARTICLES::VISIBILITY');
 
         $this->scr->register_var('COMMENT_TYPES', $this->comment_types);
         $this->scr->register_Var('VISIBILITY', $this->visibility);
+
+        define('ISHOME', true);
     }
 
     function display ($params = null)
@@ -298,7 +300,6 @@ class index_controller {
 		$items		= $this->forumlist->get_list();
 		$articles	= $this->articlelist->get_last_articles($this->scr->sm->user);
 
-    define('ISHOME', true);
     $this->scr->register_var('ITEMS', $items);
 		$this->scr->register_var('LAST_ARTICLES', $articles);
     $this->scr->register_var('FBNHGROUP', $this->grouplist->get_tree(15));

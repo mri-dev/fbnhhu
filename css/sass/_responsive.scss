@@ -54,7 +54,7 @@
   .content-holder section#forum-left, .content-holder section.list-left,
   .content-holder section#forum-right, .content-holder section.list-right,
   footer #sitemap > .page-width-holder > section{
-    flex-basis: 100%;
+    flex-basis: 100% !important;
   }
   .content-holder section#forum-left, .content-holder section.list-left {
     padding: 5px 10px;
